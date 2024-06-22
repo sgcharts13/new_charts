@@ -72,7 +72,13 @@
                                         </ul>
                                     </div>
                                 </header>
-                                <div class="table-wrapper">
+                                <div>
+                                    <ul class="actions fit">
+                                        <li class="button-container"><button id="button1" onclick="showTable('table1', 'button1')">Table</a></li>
+                                        <li class="button-container"><button id="button2" onclick="showTable('table2', 'button2')">Cards</a></li>
+                                    </ul>
+                                </div>
+                                <div id="table1" class="table-wrapper">
                                     <a id="chart"></a>
                                     <table>
                                         <thead>
@@ -810,6 +816,693 @@
                                             </tr></tbody>
                                     </table>
                                 </div>
+                                <div id="table2" class="table-wrapper">
+                                    <a id="chart"></a>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Pos</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Song Name</th>
+                                                <th>Streams</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody><tr>
+                                                <td>1</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02db1d1cdc927a07825a2ed244" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Mirrors</span><br>
+                                                    <span class="line2">Justin Timberlake</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 1, Peak: 1, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">9,711</span><br>
+                                                    <span class="line4-red">-42</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>2</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029d0f0d226987b449808e7b6f" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Just Give Me a Reason</span><br>
+                                                    <span class="line2">P!nk, Nate Ruess</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 2, Peak: 1, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">9,011</span><br>
+                                                    <span class="line4-red">-507</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>3</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02dee648abe19dd6e10902c4ae" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Radioactive</span><br>
+                                                    <span class="line2">Imagine Dragons</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 3, Peak: 3, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">8,882</span><br>
+                                                    <span class="line4-red">-71</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>4</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f019487516c2003af91a921a" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Blurred Lines</span><br>
+                                                    <span class="line2">Robin Thicke, T.I., Pharrell Williams</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 4, Peak: 4, Weeks: 8</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">8,247</span><br>
+                                                    <span class="line4-green">+351</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>5</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02d7fb3e4c63020039d1cff6b2" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Young And Beautiful</span><br>
+                                                    <span class="line2">Lana Del Rey</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 5, Peak: 4, Weeks: 10</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">7,512</span><br>
+                                                    <span class="line4-red">-379</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>6</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e021d5cf960a92bb8b03fc2be7f" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Get Lucky</span><br>
+                                                    <span class="line2">Daft Punk, Pharrell Williams, Nile Rodgers</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 6, Peak: 4, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">12,383</span><br>
+                                                    <span class="line4-red">-474</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>7</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02dcef905cb144d4867119850b" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">I Need Your Love</span><br>
+                                                    <span class="line2">Calvin Harris, Ellie Goulding</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 7, Peak: 5, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">7,016</span><br>
+                                                    <span class="line4-red">-345</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>8</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02aadb13ae608f6af20528409b" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Heart Attack</span><br>
+                                                    <span class="line2">Demi Lovato</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 8, Peak: 4, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">6,522</span><br>
+                                                    <span class="line4-red">-560</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>9</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02883179d0260c3d2faf3a3d4b" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">We Can't Stop</span><br>
+                                                    <span class="line2">Miley Cyrus</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 14, Peak: 9, Weeks: 3</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">6,165</span><br>
+                                                    <span class="line4-green">+1,302</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>10</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022e3049fef96abebf336b7366" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Hall of Fame</span><br>
+                                                    <span class="line2">The Script, will.i.am</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 9, Peak: 7, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">5,814</span><br>
+                                                    <span class="line4-red">-244</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>12</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02407bd04707c463bbb3410737" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Demons</span><br>
+                                                    <span class="line2">Imagine Dragons</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 15, Peak: 12, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">5,501</span><br>
+                                                    <span class="line4-green">+816</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>13</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e025c8cfe4b2c4aa89c9c92108e" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Titanium</span><br>
+                                                    <span class="line2">David Guetta, Sia</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 10, Peak: 9, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">5,392</span><br>
+                                                    <span class="line4-red">-357</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>14</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e14f11f796cef9f9a82691a7" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Wake Me Up</span><br>
+                                                    <span class="line2">Avicii</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 37, Peak: 14, Weeks: 2</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">5,198</span><br>
+                                                    <span class="line4-green">+1,888</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>16</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0215784f5212050cf2e67f1935" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Ho Hey</span><br>
+                                                    <span class="line2">The Lumineers</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 16, Peak: 10, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,910</span><br>
+                                                    <span class="line4-green">+278</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>17</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02dcef905cb144d4867119850b" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Sweet Nothing</span><br>
+                                                    <span class="line2">Calvin Harris, Florence Welch</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 13, Peak: 8, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,897</span><br>
+                                                    <span class="line4-red">-88</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>18</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02941dd3b3343d9cb9329d37bf" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Clarity</span><br>
+                                                    <span class="line2">Zedd, Foxes</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 19, Peak: 18, Weeks: 9</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,647</span><br>
+                                                    <span class="line4-green">+285</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>19</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e028cfdfa1891889af8896bbfe6" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Come & Get It</span><br>
+                                                    <span class="line2">Selena Gomez</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 23, Peak: 19, Weeks: 10</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,390</span><br>
+                                                    <span class="line4-green">+164</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>20</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e213619b79adda913fb1743a" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Don't You Worry Child (Radio Edit)</span><br>
+                                                    <span class="line2">Swedish House Mafia</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 17, Peak: 17, Weeks: 5</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,382</span><br>
+                                                    <span class="line4-red">-113</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>21</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02a8f95e7f840c11edfa6cc3bd" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">It's Time</span><br>
+                                                    <span class="line2">Imagine Dragons</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 39, Peak: 13, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,299</span><br>
+                                                    <span class="line4-green">+1,057</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>22</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029d0f0d226987b449808e7b6f" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Try</span><br>
+                                                    <span class="line2">P!nk</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 18, Peak: 14, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,289</span><br>
+                                                    <span class="line4-red">-191</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>23</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02ce7d499847da02a9cbd1c084" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Love Somebody</span><br>
+                                                    <span class="line2">Maroon 5</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 25, Peak: 23, Weeks: 6</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,160</span><br>
+                                                    <span class="line4-red">-34</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>24</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02fc8633e22a7dba6aab817bff" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">One More Night</span><br>
+                                                    <span class="line2">Maroon 5</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 24, Peak: 17, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,129</span><br>
+                                                    <span class="line4-red">-69</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>25</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e24cbbd5cef05ca77ec67df6" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Diamonds</span><br>
+                                                    <span class="line2">Rihanna</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 21, Peak: 18, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,068</span><br>
+                                                    <span class="line4-red">-209</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>26</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022c5b24ecfa39523a75c993c4" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Feel This Moment</span><br>
+                                                    <span class="line2">Pitbull, Christina Aguilera</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 42, Peak: 26, Weeks: 4</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,014</span><br>
+                                                    <span class="line4-green">+1,057</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>27</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029d41d73f973cb817462e068a" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Daylight</span><br>
+                                                    <span class="line2">Maroon 5</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 26, Peak: 12, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">4,003</span><br>
+                                                    <span class="line4-red">-168</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>28</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0295b8e76ab19c565188a49331" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Scream & Shout</span><br>
+                                                    <span class="line2">will.i.am, Britney Spears</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 20, Peak: 5, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,948</span><br>
+                                                    <span class="line4-red">-350</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>29</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e025ccb34ad80069d7eef97f1a1" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">I Could Be The One (Avicii Vs. Nicky Romero) - Nicktim / Radio Edit</span><br>
+                                                    <span class="line2">Avicii, Nicky Romero</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 34, Peak: 27, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,806</span><br>
+                                                    <span class="line4-green">+313</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>30</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02fc8633e22a7dba6aab817bff" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Payphone</span><br>
+                                                    <span class="line2">Maroon 5, Wiz Khalifa</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 22, Peak: 17, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,797</span><br>
+                                                    <span class="line4-red">-461</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>31</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02797edfd00fc0a7f22da2a0e0" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">#thatPOWER</span><br>
+                                                    <span class="line2">will.i.am, Justin Bieber</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 27, Peak: 16, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,751</span><br>
+                                                    <span class="line4-red">-317</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>32</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02a3765c103221266e231b4a47" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Pompeii</span><br>
+                                                    <span class="line2">Bastille</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 31, Peak: 28, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,691</span><br>
+                                                    <span class="line4-green">+102</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>33</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f5bf6cc73913a539ca7a56bb" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Little Talks</span><br>
+                                                    <span class="line2">Of Monsters and Men</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 28, Peak: 16, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,676</span><br>
+                                                    <span class="line4-red">-151</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>34</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02dc8a964d83a0bd7d861e46b9" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">This Is What It Feels Like</span><br>
+                                                    <span class="line2">Armin van Buuren, Trevor Guthrie</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 32, Peak: 32, Weeks: 7</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,516</span><br>
+                                                    <span class="line4-red">-28</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>35</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029e530c594c5ea6ce379387b1" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">If I Lose Myself - Alesso vs OneRepublic</span><br>
+                                                    <span class="line2">OneRepublic, Alesso</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 36, Peak: 35, Weeks: 9</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,476</span><br>
+                                                    <span class="line4-green">+52</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>36</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022e3049fef96abebf336b7366" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">If You Could See Me Now</span><br>
+                                                    <span class="line2">The Script</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 29, Peak: 23, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,471</span><br>
+                                                    <span class="line4-red">-192</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>37</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e023f04ce56f3786307572fc944" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">We Own It (Fast & Furious)</span><br>
+                                                    <span class="line2">2 Chainz, Wiz Khalifa</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 35, Peak: 34, Weeks: 5</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,402</span><br>
+                                                    <span class="line4-red">-61</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>38</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e36e3d7f0e232cb8c1c77640" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Gentleman</span><br>
+                                                    <span class="line2">PSY</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 30, Peak: 3, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,273</span><br>
+                                                    <span class="line4-red">-325</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>39</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029213b0453a98f037f2230f3e" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">La La La</span><br>
+                                                    <span class="line2">Naughty Boy, Sam Smith</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 46, Peak: 39, Weeks: 2</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,161</span><br>
+                                                    <span class="line4-green">+450</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>40</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0207a3c8878e102f6cb7039a4c" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Crazy Kids</span><br>
+                                                    <span class="line2">Kesha, will.i.am</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 40, Peak: 40, Weeks: 4</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">3,034</span><br>
+                                                    <span class="line4-red">-53</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>41</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f4234e15e13de01fc4f6eda0" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Here's to Never Growing Up</span><br>
+                                                    <span class="line2">Avril Lavigne</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 38, Peak: 30, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,864</span><br>
+                                                    <span class="line4-red">-421</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>42</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02dcef905cb144d4867119850b" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Drinking from the Bottle</span><br>
+                                                    <span class="line2">Calvin Harris, Tinie Tempah</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 43, Peak: 29, Weeks: 12</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,822</span><br>
+                                                    <span class="line4-red">-42</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>43</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0263a765b4cb921a65a344f45d" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">The Way</span><br>
+                                                    <span class="line2">Ariana Grande, Mac Miller</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 45, Peak: 40, Weeks: 7</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,791</span><br>
+                                                    <span class="line4-green">+33</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>44</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029b9b36b0e22870b9f542d937" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eo_circle_grey_arrow-left-right.svg/768px-Eo_circle_grey_arrow-left-right.svg.png?20200417134845 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Instant Crush</span><br>
+                                                    <span class="line2">Daft Punk, Julian Casablancas</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 44, Peak: 33, Weeks: 8</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,742</span><br>
+                                                    <span class="line4-red">-100</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>45</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029a33ea3d0b9af9cd45d05933" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAOY6WENhWaUN8EjRIwgsNelS0_RbjjKoOw&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">#Beautiful</span><br>
+                                                    <span class="line2">Mariah Carey, Miguel</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 41, Peak: 40, Weeks: 5</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,731</span><br>
+                                                    <span class="line4-red">-326</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>46</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027f9e5fda879c2f5c95a4f771" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-uPMTH57wswC6fx_GIFiiXSfEODTSMAoBA&s alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Play Hard</span><br>
+                                                    <span class="line2">David Guetta, Ne-Yo, Akon</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: 50, Peak: 46, Weeks: 2</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,617</span><br>
+                                                    <span class="line4-green">+81</span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>47</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_Star_with_rounded_edges.svg/63px-Yellow_Star_with_rounded_edges.svg.png?20211220093133 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Everything Has Changed</span><br>
+                                                    <span class="line2">Taylor Swift, Ed Sheeran</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: -, Peak: 47, Weeks: 1</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,585</span><br>
+                                                    <span class="line2"></span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>48</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029e2f95ae77cf436017ada9cb" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_Star_with_rounded_edges.svg/63px-Yellow_Star_with_rounded_edges.svg.png?20211220093133 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">Counting Stars</span><br>
+                                                    <span class="line2">OneRepublic</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: -, Peak: 48, Weeks: 1</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,514</span><br>
+                                                    <span class="line2"></span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>49</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0272d544c36a037525f17c7fb4" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_Star_with_rounded_edges.svg/63px-Yellow_Star_with_rounded_edges.svg.png?20211220093133 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">明明就</span><br>
+                                                    <span class="line2">Jay Chou</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: -, Peak: 49, Weeks: 1</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,480</span><br>
+                                                    <span class="line2"></span>
+                                                </td>
+                                            </tr><tr>
+                                                <td>50</td>
+                                                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02623108b3d24c016e5a14374b" alt=""/></td>
+                                                <td class="image-cell-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_Star_with_rounded_edges.svg/63px-Yellow_Star_with_rounded_edges.svg.png?20211220093133 alt=""/></td>
+                                                <td class="line-container">
+                                                    <span class="line1">"Read All About It, Pt. III"</span><br>
+                                                    <span class="line2">Emeli Sandé</span>
+                                                    <br></br>
+                                                    <span class="line2">LW: -, Peak: 50, Weeks: 1</span>
+                                                </td>
+                                                <td class="line-container-2">
+                                                    <span class="line3">2,467</span><br>
+                                                    <span class="line2"></span>
+                                                </td>
+                                            </tr></tbody>
+                                    </table>
+                                </div>
                                 <div>
                                     <center><h3>WEEK OF</h3></center>
                                     <ul class="actions fit">
@@ -853,6 +1546,7 @@
                 <script src="../../assets/js/jquery.min.js"></script>
                 <script src="../../assets/js/browser.min.js"></script>
                 <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
                 <script src="../../assets/js/util.js"></script>
                 <script src="../../assets/js/main.js"></script>
 
