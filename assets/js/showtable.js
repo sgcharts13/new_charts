@@ -1,6 +1,8 @@
 function showTable(tableId, buttonId) {
     // Hide all tables
-    var tables = document.querySelectorAll('.table-wrapper');
+    const tablesWrapper1 = document.querySelectorAll('.table-wrapper');
+    const tablesWrapper2 = document.querySelectorAll('.table-wrapper-2');
+    const tables = [...tablesWrapper1, ...tablesWrapper2];
     tables.forEach(function(table) {
         table.classList.remove('active');
     });

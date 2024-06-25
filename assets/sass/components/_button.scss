@@ -30,7 +30,7 @@
 		letter-spacing: _font(letter-spacing);
 		line-height: 3.45em;
 		overflow: hidden;
-		padding: 0 1.25em 0 #{1.25em + _font(letter-spacing)};
+		padding: 0 0.25em 0 #{0.25em + _font(letter-spacing)};
 		text-align: center;
 		text-decoration: none;
 		text-overflow: ellipsis;
