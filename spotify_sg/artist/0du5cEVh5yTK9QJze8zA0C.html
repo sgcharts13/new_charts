@@ -1,442 +1,442 @@
 <!DOCTYPE HTML>
-        <!--
-            Phantom by HTML5 UP
-            html5up.net | @ajlkn
-            Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-        -->
-        <html>
-            <head>
-                <title>Spotify Singapore Charts - sgcharts13</title>
-                <meta charset="utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-                <link rel="stylesheet" href="../../assets/css/artist_main.css" />
-                <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
-            </head>
-            <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/artist_main.css" />
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-                gtag('config', 'G-PQ72PWRCWX');
-            </script>
-            <body class="is-preload">
-                <!-- Wrapper -->
-                    <div id="wrapper">
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
 
-                        <!-- Header -->
-                            <header id="header">
-                                <div class="inner">
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
 
-                                    <!-- Logo -->
-                                        <a href="../../main.html" class="logo">
-                                            <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
-                                        </a>
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
 
-                                    <!-- Nav -->
-                                        <nav>
-                                            <ul>
-                                                <li><a href="#menu">Menu</a></li>
-                                            </ul>
-                                        </nav>
-
-                                </div>
-                            </header>
-
-                        <!-- Menu -->
-                            <nav id="menu">
-                                <h2>Menu</h2>
-                                <ul>
-                                    <li><a href="../../main.html">Home</a></li>
-                                    <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
-                                    <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
-                                    <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
-                                    <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
-                                    <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
-                                    <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
-                                </ul>
-                            </nav>
-
-                        <!-- Main -->
-                            <div id="main">
-                                <div class="inner">
-                                    <header>
-                                        <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
-                                        <p style="vertical-align: middle;">
-                                            <span class="image right">
-                                                <img src="https://i.scdn.co/image/ab67616100005174c36dd9eb55fb0db4911f25dd" alt="" />
-                                            </span>
-                                            <h1 style="padding: 0.25em 0;">Bruno Mars</h1>
-                                            <span class="line1">2179 Total Weeks On Chart</span><br>
-                                            <span class="line1">9 Top 10 Songs&nbsp&nbsp●&nbsp&nbsp23 Top 50 Songs&nbsp&nbsp●&nbsp&nbsp26 Top 100 Songs&nbsp&nbsp●&nbsp&nbsp</span><br><span class="line1">33 Songs Charted</span></p>
-                                    </header>
-                                    <body>
-                                        <ul class="actions fit">
-                                            <li><a href="https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C" class="button fit">View on Spotify</a></li>
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
                                         </ul>
-                                        <div id="table1" class="table-wrapper-active">
-                                            <a id="chart"></a>
-                                            <table id="sortable-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th></th>
-                                                        <th onclick="sortTable(1)">Song Name</th>
-                                                        <th onclick="sortTable(2)">Featured Artists</th>
-                                                        <th onclick="sortTable(3)">First Week on Chart</th>
-                                                        <th onclick="sortTable(4)">Debut Rank</th>
-                                                        <th onclick="sortTable(5)">Peak Week</th>
-                                                        <th onclick="sortTable(6)">Peak Rank</th>
-                                                        <th onclick="sortTable(7)">Peak Streams</th>
-                                                        <th onclick="sortTable(8)">Weeks on Chart</th>
-                                                        <th onclick="sortTable(9)">Year</th>
-                                                        <th onclick="sortTable(10)">Song Length</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0KKkJNfGyhkQ5aFogxQAPU.html">That's What I Like</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2016_11_24.html">November 24, 2016</a></span></td>
-                    <td>102</td><td><span class="line2"><a href="../week/2017_04_06.html">April 6, 2017</a></span></td><td>3</td><td>292,881</td>
-                    <td>312</td>
-                    <td>2016</td>
-                    <td>3:26</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/161DnLWsx1i3u1JT05lzqU.html">Talking to the Moon</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_03_11.html">March 11, 2021</a></span></td>
-                    <td>182</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>9</td><td>244,294</td>
-                    <td>108</td>
-                    <td>2010</td>
-                    <td>3:37</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6b8Be6ljOzmkOmFslEb23P.html">24K Magic</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2016_10_13.html">October 13, 2016</a></span></td>
-                    <td>32</td><td><span class="line2"><a href="../week/2016_12_15.html">December 15, 2016</a></span></td><td>9</td><td>208,154</td>
-                    <td>61</td>
-                    <td>2016</td>
-                    <td>3:45</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02bd5010fd3868c08323bf6d41" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7sMBvZCSUl99bJLXZaLa0b.html">Smokin Out The Window</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a><a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_11_11.html">November 11, 2021</a></span></td>
-                    <td>10</td><td><span class="line2"><a href="../week/2021_11_18.html">November 18, 2021</a></span></td><td>7</td><td>227,235</td>
-                    <td>16</td>
-                    <td>2021</td>
-                    <td>3:17</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e024c43bd96a211ed67cfe86636" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4rMNgxEwGWoPHIUcvB5BrB.html">It Will Rain</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_04_29.html">April 29, 2021</a></span></td>
-                    <td>199</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>35</td><td>162,433</td>
-                    <td>18</td>
-                    <td>2011</td>
-                    <td>4:17</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4lLtanYk6tkMvooU0tWzG8.html">Grenade</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2016_10_13.html">October 13, 2016</a></span></td>
-                    <td>192</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>16</td><td>208,436</td>
-                    <td>12</td>
-                    <td>2010</td>
-                    <td>3:42</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e028596df2f2646ab9aba464c30" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/5HQVUIKwCEXpe7JIHyY734.html">Young, Wild & Free</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/7hJcb9fa4alzcOq3EaNPoG.html">Snoop Dogg</a><a href="../artist/137W8MRPWKqSmrBGDBFSop.html">Wiz Khalifa</a>, </span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>75</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>51</td><td>118,113</td>
-                    <td>2</td>
-                    <td>2011</td>
-                    <td>3:27</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02bd5010fd3868c08323bf6d41" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/21afd9hCjpQ6lE5DPbcPHP.html">Blast Off</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a><a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_11_18.html">November 18, 2021</a></span></td>
-                    <td>135</td><td><span class="line2"><a href="../week/2021_11_18.html">November 18, 2021</a></span></td><td>135</td><td>54,151</td>
-                    <td>1</td>
-                    <td>2021</td>
-                    <td>4:44</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7BqBn9nzAq8spo5e7cZ0dJ.html">Just the Way You Are</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2014_10_26.html">October 26, 2014</a></span></td>
-                    <td>120</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>11</td><td>236,498</td>
-                    <td>695</td>
-                    <td>2010</td>
-                    <td>3:40</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6SKwQghsR8AISlxhcwyA9R.html">Marry You</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_01_18.html">January 18, 2024</a></span></td>
-                    <td>186</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>22</td><td>191,112</td>
-                    <td>17</td>
-                    <td>2010</td>
-                    <td>3:50</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026e4366b5308fd1c5462eb3ab" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2G1tXoGBaEMJ7FKGnkf6ud.html">Wake Up in the Sky</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/13y7CgLHjMVRMDqxdx0Xdo.html">Gucci Mane</a>, <a href="../artist/46SHBwWsqBkxI7EeeBEQG7.html">Kodak Black</a></span></td><td><span class="line2"><a href="../week/2018_09_20.html">September 20, 2018</a></span></td>
-                    <td>61</td><td><span class="line2"><a href="../week/2018_09_27.html">September 27, 2018</a></span></td><td>46</td><td>129,100</td>
-                    <td>14</td>
-                    <td>2018</td>
-                    <td>3:23</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7hCNBVRhHzcsRAv0TQnOzq.html">Runaway Baby</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>48</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>34</td><td>164,788</td>
-                    <td>3</td>
-                    <td>2010</td>
-                    <td>2:28</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6ObpR8ek44tvWefQRcSo8K.html">Calling All My Lovelies</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>72</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>53</td><td>116,292</td>
-                    <td>2</td>
-                    <td>2016</td>
-                    <td>4:10</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4KykoaJQ5UxjCpp3lYkvTE.html">Liquor Store Blues</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3QJzdZJYIAcoET1GcfpNGi.html">Damian Marley</a></span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>94</td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td><td>94</td><td>80,531</td>
-                    <td>2</td>
-                    <td>2010</td>
-                    <td>3:49</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02cb670e72555c9b5ab954c235" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6YhtdyvzbVL3mxrCdMtSxA.html">Uptown Funk - Trinidad James Remix</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3hv9jJF3adDNsBSIQDqcjp.html">Mark Ronson</a>, <a href="../artist/0I5HubncQ8E1MFZOlPDY4J.html">Trinidad James</a></span></td><td><span class="line2"><a href="../week/2015_07_02.html">July 2, 2015</a></span></td>
-                    <td>186</td><td><span class="line2"><a href="../week/2015_07_09.html">July 9, 2015</a></span></td><td>32</td><td>31,727</td>
-                    <td>2</td>
-                    <td>2015</td>
-                    <td>4:22</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026f8361784af827a0894c3f21" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0I8bvjJTx26UOJmT7v5O8W.html">Just the Way You Are - Remastered</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2015_02_15.html">February 15, 2015</a></span></td>
-                    <td>193</td><td><span class="line2"><a href="../week/2015_02_15.html">February 15, 2015</a></span></td><td>193</td><td>7,964</td>
-                    <td>1</td>
-                    <td>2013</td>
-                    <td>3:39</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02c97f38f487e3c07fc63f48e8" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7Cj2tT0m2SBeIO1PsGfk8A.html">Grenade - Acoustic</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2015_04_30.html">April 30, 2015</a></span></td>
-                    <td>212</td><td><span class="line2"><a href="../week/2015_04_30.html">April 30, 2015</a></span></td><td>201</td><td>2,418</td>
-                    <td>3</td>
-                    <td>2011</td>
-                    <td>4:09</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/386RUes7n1uM1yfzgeUuwp.html">The Lazy Song</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2015_06_18.html">June 18, 2015</a></span></td>
-                    <td>256</td><td><span class="line2"><a href="../week/2015_06_18.html">June 18, 2015</a></span></td><td>201</td><td>1,419</td>
-                    <td>1</td>
-                    <td>2010</td>
-                    <td>3:09</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0kN8xEmgMW9mh7UmDYHlJP.html">Versace on the Floor</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2016_11_10.html">November 10, 2016</a></span></td>
-                    <td>89</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>10</td><td>236,915</td>
-                    <td>88</td>
-                    <td>2016</td>
-                    <td>4:21</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0249055dce3554e72e82082980" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/5g7sDjBhZ4I3gcFIpkrLuI.html">Locked out of Heaven</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2014_10_26.html">October 26, 2014</a></span></td>
-                    <td>90</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>6</td><td>262,546</td>
-                    <td>131</td>
-                    <td>2012</td>
-                    <td>3:53</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02926f43e7cce571e62720fd46" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/55h7vJchibLdUkxdlX3fK7.html">Treasure</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2013_12_22.html">December 22, 2013</a></span></td>
-                    <td>40</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>21</td><td>194,795</td>
-                    <td>51</td>
-                    <td>2012</td>
-                    <td>2:58</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022780cc9f7796e04f367e394d" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2qPUnoasNe4Ep43emVXEig.html">Billionaire</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/7o9Nl7K1Al6NNAHX6jn6iG.html">Travie McCoy</a>, </span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>44</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>37</td><td>147,429</td>
-                    <td>2</td>
-                    <td>2010</td>
-                    <td>3:31</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0mBKv9DkYfQHjdMcw2jdyI.html">Chunky</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2016_11_24.html">November 24, 2016</a></span></td>
-                    <td>126</td><td><span class="line2"><a href="../week/2016_11_24.html">November 24, 2016</a></span></td><td>126</td><td>28,976</td>
-                    <td>5</td>
-                    <td>2016</td>
-                    <td>3:06</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/1I6pKIyaBp4OebTGLJpCCC.html">Perm</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2016_12_22.html">December 22, 2016</a></span></td>
-                    <td>198</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>105</td><td>74,895</td>
-                    <td>2</td>
-                    <td>2016</td>
-                    <td>3:30</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026f9e6abbd6fa43ac3cdbeee0" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7MAibcTli4IisCtbHKrGMh.html">Leave The Door Open</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a><a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_03_11.html">March 11, 2021</a></span></td>
-                    <td>3</td><td><span class="line2"><a href="../week/2021_03_25.html">March 25, 2021</a></span></td><td>2</td><td>353,684</td>
-                    <td>82</td>
-                    <td>2021</td>
-                    <td>4:02</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0249055dce3554e72e82082980" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0B7wvvmu9EISAwZnOpjhNI.html">When I Was Your Man</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2014_01_05.html">January 5, 2014</a></span></td>
-                    <td>50</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>18</td><td>205,032</td>
-                    <td>393</td>
-                    <td>2012</td>
-                    <td>3:33</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e419ccba0baa8bd3f3d7abf2" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/32OlwWuMpZ6b0aN2RZOeMS.html">Uptown Funk</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3hv9jJF3adDNsBSIQDqcjp.html">Mark Ronson</a>, </span></td><td><span class="line2"><a href="../week/2014_11_16.html">November 16, 2014</a></span></td>
-                    <td>120</td><td><span class="line2"><a href="../week/2015_01_04.html">January 4, 2015</a></span></td><td>3</td><td>147,083</td>
-                    <td>104</td>
-                    <td>2015</td>
-                    <td>4:29</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0247e522adf030a78615cdea06" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3Vo4wInECJQuz9BIBMOu8i.html">Finesse - Remix; feat. Cardi B</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/4kYSro6naA4h99UJvo89HB.html">Cardi B</a></span></td><td><span class="line2"><a href="../week/2018_01_11.html">January 11, 2018</a></span></td>
-                    <td>15</td><td><span class="line2"><a href="../week/2018_01_18.html">January 18, 2018</a></span></td><td>8</td><td>216,866</td>
-                    <td>24</td>
-                    <td>2017</td>
-                    <td>3:37</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02288883647008cefba0db5402" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0PG9fbaaHFHfre2gUVo7AN.html">Please Me</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/4kYSro6naA4h99UJvo89HB.html">Cardi B</a>, </span></td><td><span class="line2"><a href="../week/2019_02_21.html">February 21, 2019</a></span></td>
-                    <td>26</td><td><span class="line2"><a href="../week/2019_03_07.html">March 7, 2019</a></span></td><td>24</td><td>142,316</td>
-                    <td>12</td>
-                    <td>2019</td>
-                    <td>3:20</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026adcabaab172f5b8a3f085cb" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2sXf2JdbB2GlNju00kw9WE.html">Skate</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a><a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>31</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>31</td><td>123,614</td>
-                    <td>8</td>
-                    <td>2021</td>
-                    <td>3:23</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/5XMkENs3GfeRza8MfVAhjK.html">Finesse</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>37</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>25</td><td>176,154</td>
-                    <td>3</td>
-                    <td>2016</td>
-                    <td>3:11</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02484d121f0e2d2caf87d5d10b" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/59dLtGBS26x7kc0rHbaPrq.html">Nothin' on You</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/5ndkK3dpZLKtBklKjxNQwT.html">B.o.B</a>, </span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
-                    <td>69</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>44</td><td>133,862</td>
-                    <td>2</td>
-                    <td>2010</td>
-                    <td>4:28</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0273304ce0653c7758dd94b259" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7hvO2qCwJVZxiyoA7c9i5d.html">BLOW</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/6eUKZXaKkcviH0Ku9w2n3V.html">Ed Sheeran</a><a href="../artist/4YLtscXsxbVgi031ovDDdh.html">Chris Stapleton</a>, </span></td><td><span class="line2"><a href="../week/2019_07_11.html">July 11, 2019</a></span></td>
-                    <td>108</td><td><span class="line2"><a href="../week/2019_07_18.html">July 18, 2019</a></span></td><td>105</td><td>66,918</td>
-                    <td>2</td>
-                    <td>2019</td>
-                    <td>3:29</td>
-                                                    </tr></tbody>
-                                            </table>
-                                        </div>
-                                        <div>
-                                            <ul class="actions fit">
-                                                <li><a href="#top" class="button fit">Back to Top</a></li>
-                                                <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
-                                            </ul>
-                                        </div>
-                                    </body>
-                                </div>
+                                    </nav>
+
                             </div>
+                        </header>
 
-                        <!-- Footer -->
-                            <footer id="footer">
-                                <div class="inner">
-                                    <section>
-                                        <h2>Get in touch</h2>
-                                        <div>
-                                            <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
-                                            <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
-                                        </div>
-                                    </section>
-                                    <section>
-                                        <h2>Follow</h2>
-                                        <ul class="icons">
-                                            <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                                            <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-                                            <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-                                            <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
-                                            <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-                                        </ul>
-                                    </section>
-                                    <ul class="copyright">
-                                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616100005174c36dd9eb55fb0db4911f25dd" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Bruno Mars</h1>
+                                        <span class="line1">2179 Total Weeks On Chart</span><br>
+                                        <span class="line1">9 Top 10 Songs&nbsp&nbsp●&nbsp&nbsp23 Top 50 Songs&nbsp&nbsp●&nbsp&nbsp26 Top 100 Songs&nbsp&nbsp●&nbsp&nbsp</span><br><span class="line1">33 Songs Charted</span></p>
+                                </header>
+                                <body>
+                                    <ul class="actions fit">
+                                        <li><a href="https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C" class="button fit">View on Spotify</a></li>
                                     </ul>
-                                </div>
-                            </footer>
+                                    <div id="table1" class="table-wrapper-active">
+                                        <a id="chart"></a>
+                                        <table id="sortable-table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th onclick="sortTable(1)">Song Name</th>
+                                                    <th onclick="sortTable(2)">Featured Artists</th>
+                                                    <th onclick="sortTable(3)">First Week on Chart</th>
+                                                    <th onclick="sortTable(4)">Debut Rank</th>
+                                                    <th onclick="sortTable(5)">Peak Week</th>
+                                                    <th onclick="sortTable(6)">Peak Rank</th>
+                                                    <th onclick="sortTable(7)">Peak Streams</th>
+                                                    <th onclick="sortTable(8)">Weeks on Chart</th>
+                                                    <th onclick="sortTable(9)">Year</th>
+                                                    <th onclick="sortTable(10)">Song Length</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0KKkJNfGyhkQ5aFogxQAPU.html">That's What I Like</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2016_11_24.html">November 24, 2016</a></span></td>
+                <td>102</td><td><span class="line2"><a href="../week/2017_04_06.html">April 6, 2017</a></span></td><td>3</td><td>292,881</td>
+                <td>312</td>
+                <td>2016</td>
+                <td>3:26</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/161DnLWsx1i3u1JT05lzqU.html">Talking to the Moon</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_03_11.html">March 11, 2021</a></span></td>
+                <td>182</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>9</td><td>244,294</td>
+                <td>108</td>
+                <td>2010</td>
+                <td>3:37</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6b8Be6ljOzmkOmFslEb23P.html">24K Magic</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2016_10_13.html">October 13, 2016</a></span></td>
+                <td>32</td><td><span class="line2"><a href="../week/2016_12_15.html">December 15, 2016</a></span></td><td>9</td><td>208,154</td>
+                <td>61</td>
+                <td>2016</td>
+                <td>3:45</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02bd5010fd3868c08323bf6d41" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7sMBvZCSUl99bJLXZaLa0b.html">Smokin Out The Window</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a>, <a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_11_11.html">November 11, 2021</a></span></td>
+                <td>10</td><td><span class="line2"><a href="../week/2021_11_18.html">November 18, 2021</a></span></td><td>7</td><td>227,235</td>
+                <td>16</td>
+                <td>2021</td>
+                <td>3:17</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e024c43bd96a211ed67cfe86636" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4rMNgxEwGWoPHIUcvB5BrB.html">It Will Rain</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_04_29.html">April 29, 2021</a></span></td>
+                <td>199</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>35</td><td>162,433</td>
+                <td>18</td>
+                <td>2011</td>
+                <td>4:17</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4lLtanYk6tkMvooU0tWzG8.html">Grenade</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2016_10_13.html">October 13, 2016</a></span></td>
+                <td>192</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>16</td><td>208,436</td>
+                <td>12</td>
+                <td>2010</td>
+                <td>3:42</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e028596df2f2646ab9aba464c30" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/5HQVUIKwCEXpe7JIHyY734.html">Young, Wild & Free</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/7hJcb9fa4alzcOq3EaNPoG.html">Snoop Dogg</a>, <a href="../artist/137W8MRPWKqSmrBGDBFSop.html">Wiz Khalifa</a></span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>75</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>51</td><td>118,113</td>
+                <td>2</td>
+                <td>2011</td>
+                <td>3:27</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02bd5010fd3868c08323bf6d41" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/21afd9hCjpQ6lE5DPbcPHP.html">Blast Off</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a>, <a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_11_18.html">November 18, 2021</a></span></td>
+                <td>135</td><td><span class="line2"><a href="../week/2021_11_18.html">November 18, 2021</a></span></td><td>135</td><td>54,151</td>
+                <td>1</td>
+                <td>2021</td>
+                <td>4:44</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7BqBn9nzAq8spo5e7cZ0dJ.html">Just the Way You Are</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2014_10_26.html">October 26, 2014</a></span></td>
+                <td>120</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>11</td><td>236,498</td>
+                <td>695</td>
+                <td>2010</td>
+                <td>3:40</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6SKwQghsR8AISlxhcwyA9R.html">Marry You</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_01_18.html">January 18, 2024</a></span></td>
+                <td>186</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>22</td><td>191,112</td>
+                <td>17</td>
+                <td>2010</td>
+                <td>3:50</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026e4366b5308fd1c5462eb3ab" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2G1tXoGBaEMJ7FKGnkf6ud.html">Wake Up in the Sky</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/13y7CgLHjMVRMDqxdx0Xdo.html">Gucci Mane</a>, <a href="../artist/46SHBwWsqBkxI7EeeBEQG7.html">Kodak Black</a></span></td><td><span class="line2"><a href="../week/2018_09_20.html">September 20, 2018</a></span></td>
+                <td>61</td><td><span class="line2"><a href="../week/2018_09_27.html">September 27, 2018</a></span></td><td>46</td><td>129,100</td>
+                <td>14</td>
+                <td>2018</td>
+                <td>3:23</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7hCNBVRhHzcsRAv0TQnOzq.html">Runaway Baby</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>48</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>34</td><td>164,788</td>
+                <td>3</td>
+                <td>2010</td>
+                <td>2:28</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6ObpR8ek44tvWefQRcSo8K.html">Calling All My Lovelies</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>72</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>53</td><td>116,292</td>
+                <td>2</td>
+                <td>2016</td>
+                <td>4:10</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4KykoaJQ5UxjCpp3lYkvTE.html">Liquor Store Blues</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3QJzdZJYIAcoET1GcfpNGi.html">Damian Marley</a></span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>94</td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td><td>94</td><td>80,531</td>
+                <td>2</td>
+                <td>2010</td>
+                <td>3:49</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02cb670e72555c9b5ab954c235" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6YhtdyvzbVL3mxrCdMtSxA.html">Uptown Funk - Trinidad James Remix</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3hv9jJF3adDNsBSIQDqcjp.html">Mark Ronson</a>, <a href="../artist/0I5HubncQ8E1MFZOlPDY4J.html">Trinidad James</a></span></td><td><span class="line2"><a href="../week/2015_07_02.html">July 2, 2015</a></span></td>
+                <td>186</td><td><span class="line2"><a href="../week/2015_07_09.html">July 9, 2015</a></span></td><td>32</td><td>31,727</td>
+                <td>2</td>
+                <td>2015</td>
+                <td>4:22</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026f8361784af827a0894c3f21" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0I8bvjJTx26UOJmT7v5O8W.html">Just the Way You Are - Remastered</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2015_02_15.html">February 15, 2015</a></span></td>
+                <td>193</td><td><span class="line2"><a href="../week/2015_02_15.html">February 15, 2015</a></span></td><td>193</td><td>7,964</td>
+                <td>1</td>
+                <td>2013</td>
+                <td>3:39</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02c97f38f487e3c07fc63f48e8" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7Cj2tT0m2SBeIO1PsGfk8A.html">Grenade - Acoustic</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2015_04_30.html">April 30, 2015</a></span></td>
+                <td>212</td><td><span class="line2"><a href="../week/2015_04_30.html">April 30, 2015</a></span></td><td>201</td><td>2,418</td>
+                <td>3</td>
+                <td>2011</td>
+                <td>4:09</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f60070dce96a2c1b70cf6ff0" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/386RUes7n1uM1yfzgeUuwp.html">The Lazy Song</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2015_06_18.html">June 18, 2015</a></span></td>
+                <td>256</td><td><span class="line2"><a href="../week/2015_06_18.html">June 18, 2015</a></span></td><td>201</td><td>1,419</td>
+                <td>1</td>
+                <td>2010</td>
+                <td>3:09</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0kN8xEmgMW9mh7UmDYHlJP.html">Versace on the Floor</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2016_11_10.html">November 10, 2016</a></span></td>
+                <td>89</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>10</td><td>236,915</td>
+                <td>88</td>
+                <td>2016</td>
+                <td>4:21</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0249055dce3554e72e82082980" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/5g7sDjBhZ4I3gcFIpkrLuI.html">Locked out of Heaven</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2014_10_26.html">October 26, 2014</a></span></td>
+                <td>90</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>6</td><td>262,546</td>
+                <td>131</td>
+                <td>2012</td>
+                <td>3:53</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02926f43e7cce571e62720fd46" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/55h7vJchibLdUkxdlX3fK7.html">Treasure</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2013_12_22.html">December 22, 2013</a></span></td>
+                <td>40</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>21</td><td>194,795</td>
+                <td>51</td>
+                <td>2012</td>
+                <td>2:58</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022780cc9f7796e04f367e394d" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2qPUnoasNe4Ep43emVXEig.html">Billionaire</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/7o9Nl7K1Al6NNAHX6jn6iG.html">Travie McCoy</a></span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>44</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>37</td><td>147,429</td>
+                <td>2</td>
+                <td>2010</td>
+                <td>3:31</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0mBKv9DkYfQHjdMcw2jdyI.html">Chunky</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2016_11_24.html">November 24, 2016</a></span></td>
+                <td>126</td><td><span class="line2"><a href="../week/2016_11_24.html">November 24, 2016</a></span></td><td>126</td><td>28,976</td>
+                <td>5</td>
+                <td>2016</td>
+                <td>3:06</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/1I6pKIyaBp4OebTGLJpCCC.html">Perm</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2016_12_22.html">December 22, 2016</a></span></td>
+                <td>198</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>105</td><td>74,895</td>
+                <td>2</td>
+                <td>2016</td>
+                <td>3:30</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026f9e6abbd6fa43ac3cdbeee0" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7MAibcTli4IisCtbHKrGMh.html">Leave The Door Open</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a>, <a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_03_11.html">March 11, 2021</a></span></td>
+                <td>3</td><td><span class="line2"><a href="../week/2021_03_25.html">March 25, 2021</a></span></td><td>2</td><td>353,684</td>
+                <td>82</td>
+                <td>2021</td>
+                <td>4:02</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0249055dce3554e72e82082980" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0B7wvvmu9EISAwZnOpjhNI.html">When I Was Your Man</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2014_01_05.html">January 5, 2014</a></span></td>
+                <td>50</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>18</td><td>205,032</td>
+                <td>393</td>
+                <td>2012</td>
+                <td>3:33</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e419ccba0baa8bd3f3d7abf2" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/32OlwWuMpZ6b0aN2RZOeMS.html">Uptown Funk</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3hv9jJF3adDNsBSIQDqcjp.html">Mark Ronson</a></span></td><td><span class="line2"><a href="../week/2014_11_16.html">November 16, 2014</a></span></td>
+                <td>120</td><td><span class="line2"><a href="../week/2015_01_04.html">January 4, 2015</a></span></td><td>3</td><td>147,083</td>
+                <td>104</td>
+                <td>2015</td>
+                <td>4:29</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0247e522adf030a78615cdea06" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3Vo4wInECJQuz9BIBMOu8i.html">Finesse - Remix; feat. Cardi B</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/4kYSro6naA4h99UJvo89HB.html">Cardi B</a></span></td><td><span class="line2"><a href="../week/2018_01_11.html">January 11, 2018</a></span></td>
+                <td>15</td><td><span class="line2"><a href="../week/2018_01_18.html">January 18, 2018</a></span></td><td>8</td><td>216,866</td>
+                <td>24</td>
+                <td>2017</td>
+                <td>3:37</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02288883647008cefba0db5402" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0PG9fbaaHFHfre2gUVo7AN.html">Please Me</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/4kYSro6naA4h99UJvo89HB.html">Cardi B</a></span></td><td><span class="line2"><a href="../week/2019_02_21.html">February 21, 2019</a></span></td>
+                <td>26</td><td><span class="line2"><a href="../week/2019_03_07.html">March 7, 2019</a></span></td><td>24</td><td>142,316</td>
+                <td>12</td>
+                <td>2019</td>
+                <td>3:20</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e026adcabaab172f5b8a3f085cb" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2sXf2JdbB2GlNju00kw9WE.html">Skate</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/3jK9MiCrA42lLAdMGUZpwa.html">Anderson .Paak</a>, <a href="../artist/6PvvGcCY2XtUcSRld1Wilr.html">Silk Sonic</a></span></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>31</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>31</td><td>123,614</td>
+                <td>8</td>
+                <td>2021</td>
+                <td>3:23</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/5XMkENs3GfeRza8MfVAhjK.html">Finesse</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>37</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>25</td><td>176,154</td>
+                <td>3</td>
+                <td>2016</td>
+                <td>3:11</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02484d121f0e2d2caf87d5d10b" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/59dLtGBS26x7kc0rHbaPrq.html">Nothin' on You</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/5ndkK3dpZLKtBklKjxNQwT.html">B.o.B</a></span></td><td><span class="line2"><a href="../week/2024_04_04.html">April 4, 2024</a></span></td>
+                <td>69</td><td><span class="line2"><a href="../week/2024_04_11.html">April 11, 2024</a></span></td><td>44</td><td>133,862</td>
+                <td>2</td>
+                <td>2010</td>
+                <td>4:28</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0273304ce0653c7758dd94b259" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7hvO2qCwJVZxiyoA7c9i5d.html">BLOW</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/6eUKZXaKkcviH0Ku9w2n3V.html">Ed Sheeran</a>, <a href="../artist/4YLtscXsxbVgi031ovDDdh.html">Chris Stapleton</a></span></td><td><span class="line2"><a href="../week/2019_07_11.html">July 11, 2019</a></span></td>
+                <td>108</td><td><span class="line2"><a href="../week/2019_07_18.html">July 18, 2019</a></span></td><td>105</td><td>66,918</td>
+                <td>2</td>
+                <td>2019</td>
+                <td>3:29</td>
+                                                </tr></tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
 
-                    </div>
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
 
-                <!-- Scripts -->
-                    <script src="../../assets/js/jquery.min.js"></script>
-                    <script src="../../assets/js/browser.min.js"></script>
-                    <script src="../../assets/js/breakpoints.min.js"></script>
-                    <script src="../../assets/js/util.js"></script>
-                    <script src="../../assets/js/main.js"></script>
-                    <script src="../../assets/js/sorttable.js"></script>
-            </body>
-        </html>
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/sorttable.js"></script>
+        </body>
+    </html>

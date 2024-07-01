@@ -1,577 +1,577 @@
 <!DOCTYPE HTML>
-        <!--
-            Phantom by HTML5 UP
-            html5up.net | @ajlkn
-            Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-        -->
-        <html>
-            <head>
-                <title>Spotify Singapore Charts - sgcharts13</title>
-                <meta charset="utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-                <link rel="stylesheet" href="../../assets/css/artist_main.css" />
-                <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
-            </head>
-            <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/artist_main.css" />
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-                gtag('config', 'G-PQ72PWRCWX');
-            </script>
-            <body class="is-preload">
-                <!-- Wrapper -->
-                    <div id="wrapper">
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
 
-                        <!-- Header -->
-                            <header id="header">
-                                <div class="inner">
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
 
-                                    <!-- Logo -->
-                                        <a href="../../main.html" class="logo">
-                                            <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
-                                        </a>
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
 
-                                    <!-- Nav -->
-                                        <nav>
-                                            <ul>
-                                                <li><a href="#menu">Menu</a></li>
-                                            </ul>
-                                        </nav>
-
-                                </div>
-                            </header>
-
-                        <!-- Menu -->
-                            <nav id="menu">
-                                <h2>Menu</h2>
-                                <ul>
-                                    <li><a href="../../main.html">Home</a></li>
-                                    <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
-                                    <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
-                                    <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
-                                    <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
-                                    <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
-                                    <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
-                                </ul>
-                            </nav>
-
-                        <!-- Main -->
-                            <div id="main">
-                                <div class="inner">
-                                    <header>
-                                        <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
-                                        <p style="vertical-align: middle;">
-                                            <span class="image right">
-                                                <img src="https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da" alt="" />
-                                            </span>
-                                            <h1 style="padding: 0.25em 0;">Billie Eilish</h1>
-                                            <span class="line1">1308 Total Weeks On Chart</span><br>
-                                            <span class="line1">12 Top 10 Songs&nbsp&nbsp●&nbsp&nbsp27 Top 50 Songs&nbsp&nbsp●&nbsp&nbsp38 Top 100 Songs&nbsp&nbsp●&nbsp&nbsp</span><br><span class="line1">48 Songs Charted</span></p>
-                                    </header>
-                                    <body>
-                                        <ul class="actions fit">
-                                            <li><a href="https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH" class="button fit">View on Spotify</a></li>
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
                                         </ul>
-                                        <div id="table1" class="table-wrapper-active">
-                                            <a id="chart"></a>
-                                            <table id="sortable-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th></th>
-                                                        <th onclick="sortTable(1)">Song Name</th>
-                                                        <th onclick="sortTable(2)">Featured Artists</th>
-                                                        <th onclick="sortTable(3)">First Week on Chart</th>
-                                                        <th onclick="sortTable(4)">Debut Rank</th>
-                                                        <th onclick="sortTable(5)">Peak Week</th>
-                                                        <th onclick="sortTable(6)">Peak Rank</th>
-                                                        <th onclick="sortTable(7)">Peak Streams</th>
-                                                        <th onclick="sortTable(8)">Weeks on Chart</th>
-                                                        <th onclick="sortTable(9)">Year</th>
-                                                        <th onclick="sortTable(10)">Song Length</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e028a3f0a3ca7929dea23cd274c" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0u2P5u6lvoDfwTYjAADbn4.html">lovely</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/6LuN9FCkKOj5PcnpouEgny.html">Khalid</a></span></td><td><span class="line2"><a href="../week/2018_04_26.html">April 26, 2018</a></span></td>
-                    <td>106</td><td><span class="line2"><a href="../week/2018_06_14.html">June 14, 2018</a></span></td><td>13</td><td>160,478</td>
-                    <td>583</td>
-                    <td>2018</td>
-                    <td>3:20</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f2248cf6dad1d6c062587249" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3ZCTVFBt2Brf31RLEnCkWJ.html">everything i wanted</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_11_21.html">November 21, 2019</a></span></td>
-                    <td>4</td><td><span class="line2"><a href="../week/2019_11_21.html">November 21, 2019</a></span></td><td>4</td><td>328,875</td>
-                    <td>51</td>
-                    <td>2019</td>
-                    <td>4:05</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027a152619a7b55bc621d07901" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/54bFM56PmE4YLRnqpW6Tha.html">Therefore I Am</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2020_11_19.html">November 19, 2020</a></span></td>
-                    <td>4</td><td><span class="line2"><a href="../week/2020_11_19.html">November 19, 2020</a></span></td><td>4</td><td>235,664</td>
-                    <td>22</td>
-                    <td>2020</td>
-                    <td>2:54</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02a69b8b111a5fb8cb1c97e8eb" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3yNZ5r3LKfdmjoS3gkhUCT.html">bad guy</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/1uNFoZAHBGtllmzznpCI3s.html">Justin Bieber</a></span></td><td><span class="line2"><a href="../week/2019_07_18.html">July 18, 2019</a></span></td>
-                    <td>7</td><td><span class="line2"><a href="../week/2019_07_25.html">July 25, 2019</a></span></td><td>6</td><td>266,865</td>
-                    <td>14</td>
-                    <td>2019</td>
-                    <td>3:14</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029c05fec02bd9b81ee1246b2f" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/40T5GIqQ1CegGm2PTEl8Bu.html">idontwannabeyouanymore</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2018_11_22.html">November 22, 2018</a></span></td>
-                    <td>155</td><td><span class="line2"><a href="../week/2019_01_10.html">January 10, 2019</a></span></td><td>101</td><td>61,410</td>
-                    <td>36</td>
-                    <td>2017</td>
-                    <td>3:23</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022cafcdd985630d72594ecc49" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2uIX8YMNjGMD7441kqyyNU.html">ocean eyes</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2018_06_28.html">June 28, 2018</a></span></td>
-                    <td>168</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>139</td><td>54,756</td>
-                    <td>12</td>
-                    <td>2016</td>
-                    <td>3:20</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3XF5xLJHOQQRbWya6hBp7d.html">you should see me in a crown</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2018_07_26.html">July 26, 2018</a></span></td>
-                    <td>108</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>54</td><td>92,307</td>
-                    <td>9</td>
-                    <td>2019</td>
-                    <td>3:00</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0219fc30a2e29973763e3d8a53" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2xdwCJLfKCkat14mlgR26M.html">Lost Cause</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_06_10.html">June 10, 2021</a></span></td>
-                    <td>16</td><td><span class="line2"><a href="../week/2021_06_10.html">June 10, 2021</a></span></td><td>16</td><td>137,460</td>
-                    <td>7</td>
-                    <td>2021</td>
-                    <td>3:32</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3QaPy1KgI7nu9FJEQUgn6h.html">WILDFLOWER</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>34</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>34</td><td>144,114</td>
-                    <td>9</td>
-                    <td>2024</td>
-                    <td>4:21</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4QIo4oxwzzafcBWkKjDpXY.html">xanny</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>50</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>50</td><td>99,917</td>
-                    <td>5</td>
-                    <td>2019</td>
-                    <td>4:03</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2prqm9sPLj10B4Wg0wE5x9.html">BLUE</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>44</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>44</td><td>122,368</td>
-                    <td>9</td>
-                    <td>2024</td>
-                    <td>5:43</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7bcy34fBT2ap1L4bfPsl9q.html">I Didn't Change My Number</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>160</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>157</td><td>52,016</td>
-                    <td>2</td>
-                    <td>2021</td>
-                    <td>2:38</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e0f2af91be409aad81bba98c" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/04sN26COy28wTXYj3dMoiZ.html">Bored</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td>
-                    <td>103</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>103</td><td>60,616</td>
-                    <td>1</td>
-                    <td>2017</td>
-                    <td>3:00</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2Fxmhks0bxGSBdJ92vM42m.html">bad guy</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>2</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>2</td><td>324,134</td>
-                    <td>98</td>
-                    <td>2019</td>
-                    <td>3:14</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02ed317ec13d3de9e01fb99c9e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6wf7Yu7cxBSPrRlWeSeK0Q.html">What Was I Made For? [From The Motion Picture "Barbie"]</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2023_07_20.html">July 20, 2023</a></span></td>
-                    <td>24</td><td><span class="line2"><a href="../week/2023_08_03.html">August 3, 2023</a></span></td><td>3</td><td>351,735</td>
-                    <td>97</td>
-                    <td>2023</td>
-                    <td>3:42</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4RVwu0g32PAqgUiJoXsdF8.html">Happier Than Ever</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>9</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>9</td><td>202,345</td>
-                    <td>67</td>
-                    <td>2021</td>
-                    <td>4:58</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3Fj47GNK2kUF0uaEDgXLaD.html">wish you were gay</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_03_07.html">March 7, 2019</a></span></td>
-                    <td>75</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>13</td><td>187,152</td>
-                    <td>22</td>
-                    <td>2019</td>
-                    <td>3:41</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027a4781629469bb83356cd318" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3GYlZ7tbxLOxe6ewMNVTkw.html">TV</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td>
-                    <td>38</td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td><td>38</td><td>98,158</td>
-                    <td>27</td>
-                    <td>2022</td>
-                    <td>4:41</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6dOtVTDdiauQNBQEDOtlAB.html">BIRDS OF A FEATHER</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>15</td><td><span class="line2"><a href="../week/2024_06_06.html">June 6, 2024</a></span></td><td>2</td><td>538,698</td>
-                    <td>9</td>
-                    <td>2024</td>
-                    <td>3:30</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02ba4cad4533efdd06fa843a39" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/5qNh5WtzMbfpSj2jLlBkoD.html">Your Power</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_05_06.html">May 6, 2021</a></span></td>
-                    <td>9</td><td><span class="line2"><a href="../week/2021_05_06.html">May 6, 2021</a></span></td><td>9</td><td>241,618</td>
-                    <td>8</td>
-                    <td>2021</td>
-                    <td>4:05</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7BRD7x5pt8Lqa1eGYC4dzj.html">CHIHIRO</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>18</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>18</td><td>201,052</td>
-                    <td>9</td>
-                    <td>2024</td>
-                    <td>5:03</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/1LLUoftvmTjVNBHZoQyveF.html">THE DINER</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>78</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>78</td><td>91,281</td>
-                    <td>2</td>
-                    <td>2024</td>
-                    <td>3:06</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7qEKqBCD2vE5vIBsrUitpD.html">ilomilo</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>80</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>80</td><td>77,183</td>
-                    <td>2</td>
-                    <td>2019</td>
-                    <td>2:36</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027a4781629469bb83356cd318" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/5SHpuW2qjkQtFRpE6P9Nks.html">The 30th</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td>
-                    <td>89</td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td><td>89</td><td>63,495</td>
-                    <td>2</td>
-                    <td>2022</td>
-                    <td>3:36</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2KnuaZYoGzDoHiBTNYOTXG.html">Billie Bossa Nova</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>123</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>101</td><td>61,294</td>
-                    <td>2</td>
-                    <td>2021</td>
-                    <td>3:16</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6X29iaaazwho3ab7GNue5r.html">8</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>100</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>100</td><td>68,854</td>
-                    <td>1</td>
-                    <td>2019</td>
-                    <td>2:53</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3LgWsmilsrWXiPYQFRD0T7.html">goodbye</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>141</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>141</td><td>53,775</td>
-                    <td>1</td>
-                    <td>2019</td>
-                    <td>1:59</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f7b7174bef6f3fbfda3a0bb7" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/73SpzrcaHk0RQPFP73vqVR.html">No Time To Die</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2020_02_20.html">February 20, 2020</a></span></td>
-                    <td>9</td><td><span class="line2"><a href="../week/2020_02_20.html">February 20, 2020</a></span></td><td>9</td><td>251,333</td>
-                    <td>10</td>
-                    <td>2020</td>
-                    <td>4:02</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02954fe13f7c5f4b2f18d066b8" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/2ygvZOXrIeVL4xZmAWJT2C.html">my future</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2020_08_06.html">August 6, 2020</a></span></td>
-                    <td>6</td><td><span class="line2"><a href="../week/2020_08_06.html">August 6, 2020</a></span></td><td>6</td><td>179,464</td>
-                    <td>12</td>
-                    <td>2020</td>
-                    <td>3:28</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0231aa3ebe23f59778bff800c9" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/32BeYxKPrig1LefHsC0Xuo.html">Happier Than Ever - Edit</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_09_16.html">September 16, 2021</a></span></td>
-                    <td>136</td><td><span class="line2"><a href="../week/2021_10_14.html">October 14, 2021</a></span></td><td>61</td><td>73,398</td>
-                    <td>17</td>
-                    <td>2021</td>
-                    <td>2:31</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/629DixmZGHc7ILtEntuiWE.html">LUNCH</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>7</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>7</td><td>306,575</td>
-                    <td>9</td>
-                    <td>2024</td>
-                    <td>2:59</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6CcJMwBtXByIz4zQLzFkKc.html">i love you</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>61</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>61</td><td>87,672</td>
-                    <td>9</td>
-                    <td>2019</td>
-                    <td>4:51</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6IRdLKIyS4p7XNiP8r6rsx.html">all the good girls go to hell</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>35</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>35</td><td>116,871</td>
-                    <td>7</td>
-                    <td>2019</td>
-                    <td>2:48</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/1CsMKhwEmNnmvHUuO5nryA.html">SKINNY</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>35</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>35</td><td>138,986</td>
-                    <td>7</td>
-                    <td>2024</td>
-                    <td>3:39</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0248a98a5a97b2cc7963016888" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7wC5eZcFS1Q1BsQ35DU6H4.html">come out and play</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td>
-                    <td>34</td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td><td>34</td><td>119,916</td>
-                    <td>3</td>
-                    <td>2018</td>
-                    <td>3:30</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e024adbeb26299adca766cec2c5" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/51NFxnQvaosfDDutk0tams.html">bellyache</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td>
-                    <td>124</td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td><td>124</td><td>50,996</td>
-                    <td>4</td>
-                    <td>2017</td>
-                    <td>2:59</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0tMSssfxAL2oV8Vri0mFHE.html">listen before i go</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>69</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>69</td><td>83,497</td>
-                    <td>3</td>
-                    <td>2019</td>
-                    <td>4:02</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/5XsAal7ZcWg1I5T4NcRjkv.html">Halley's Comet</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>158</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>114</td><td>57,935</td>
-                    <td>2</td>
-                    <td>2021</td>
-                    <td>3:54</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/43zdsphuZLzwA9k4DJhU0I.html">when the party's over</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2018_10_25.html">October 25, 2018</a></span></td>
-                    <td>67</td><td><span class="line2"><a href="../week/2018_11_22.html">November 22, 2018</a></span></td><td>29</td><td>125,060</td>
-                    <td>60</td>
-                    <td>2019</td>
-                    <td>3:16</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4SSnFejRGlZikf02HLewEF.html">bury a friend</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_02_07.html">February 7, 2019</a></span></td>
-                    <td>10</td><td><span class="line2"><a href="../week/2019_02_07.html">February 7, 2019</a></span></td><td>10</td><td>211,224</td>
-                    <td>24</td>
-                    <td>2019</td>
-                    <td>3:13</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0261520bfb3749817d193d71f4" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6uqyE384HDSsuwpoF4mjrL.html">NDA</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_07_15.html">July 15, 2021</a></span></td>
-                    <td>27</td><td><span class="line2"><a href="../week/2021_07_15.html">July 15, 2021</a></span></td><td>27</td><td>123,285</td>
-                    <td>6</td>
-                    <td>2021</td>
-                    <td>3:15</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6fPan2saHdFaIHuTSatORv.html">L’AMOUR DE MA VIE</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>42</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>42</td><td>123,221</td>
-                    <td>9</td>
-                    <td>2024</td>
-                    <td>5:33</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/6TGd66r0nlPaYm3KIoI7ET.html">THE GREATEST</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>47</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>47</td><td>118,506</td>
-                    <td>7</td>
-                    <td>2024</td>
-                    <td>4:53</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/3Tc57t9l2O8FwQZtQOvPXK.html">my strange addiction</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
-                    <td>68</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>68</td><td>83,744</td>
-                    <td>4</td>
-                    <td>2019</td>
-                    <td>2:59</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/7DpUoxGSdlDHfqCYj0otzU.html">BITTERSUITE</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
-                    <td>81</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>81</td><td>89,967</td>
-                    <td>2</td>
-                    <td>2024</td>
-                    <td>4:58</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02c64ed7bab63186d7fca3012f" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/0psS4i5YooJrXfDnGvWRLi.html">Lo Vas A Olvidar</a></span>
-                    </td><td class="line-container"><span class="line1"><a href="../artist/7ltDVBr6mKbRvohxheJ9h1.html">ROSALÍA</a></span></td><td><span class="line2"><a href="../week/2021_01_28.html">January 28, 2021</a></span></td>
-                    <td>81</td><td><span class="line2"><a href="../week/2021_01_28.html">January 28, 2021</a></span></td><td>81</td><td>61,937</td>
-                    <td>2</td>
-                    <td>2021</td>
-                    <td>3:23</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4HOryCnbme0zBnF8LWij3f.html">Getting Older</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>101</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>101</td><td>54,092</td>
-                    <td>2</td>
-                    <td>2021</td>
-                    <td>4:04</td>
-                                                    </tr><tr>
-                    <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
-                    <td class="line-container">
-                        <span class="line1"><a href="../track/4t2OeILB07eMGTXSUbMPEu.html">Oxytocin</a></span>
-                    </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
-                    <td>167</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>167</td><td>49,489</td>
-                    <td>2</td>
-                    <td>2021</td>
-                    <td>3:30</td>
-                                                    </tr></tbody>
-                                            </table>
-                                        </div>
-                                        <div>
-                                            <ul class="actions fit">
-                                                <li><a href="#top" class="button fit">Back to Top</a></li>
-                                                <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
-                                            </ul>
-                                        </div>
-                                    </body>
-                                </div>
+                                    </nav>
+
                             </div>
+                        </header>
 
-                        <!-- Footer -->
-                            <footer id="footer">
-                                <div class="inner">
-                                    <section>
-                                        <h2>Get in touch</h2>
-                                        <div>
-                                            <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
-                                            <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
-                                        </div>
-                                    </section>
-                                    <section>
-                                        <h2>Follow</h2>
-                                        <ul class="icons">
-                                            <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                                            <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-                                            <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-                                            <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
-                                            <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-                                        </ul>
-                                    </section>
-                                    <ul class="copyright">
-                                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Billie Eilish</h1>
+                                        <span class="line1">1308 Total Weeks On Chart</span><br>
+                                        <span class="line1">12 Top 10 Songs&nbsp&nbsp●&nbsp&nbsp27 Top 50 Songs&nbsp&nbsp●&nbsp&nbsp38 Top 100 Songs&nbsp&nbsp●&nbsp&nbsp</span><br><span class="line1">48 Songs Charted</span></p>
+                                </header>
+                                <body>
+                                    <ul class="actions fit">
+                                        <li><a href="https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH" class="button fit">View on Spotify</a></li>
                                     </ul>
-                                </div>
-                            </footer>
+                                    <div id="table1" class="table-wrapper-active">
+                                        <a id="chart"></a>
+                                        <table id="sortable-table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th onclick="sortTable(1)">Song Name</th>
+                                                    <th onclick="sortTable(2)">Featured Artists</th>
+                                                    <th onclick="sortTable(3)">First Week on Chart</th>
+                                                    <th onclick="sortTable(4)">Debut Rank</th>
+                                                    <th onclick="sortTable(5)">Peak Week</th>
+                                                    <th onclick="sortTable(6)">Peak Rank</th>
+                                                    <th onclick="sortTable(7)">Peak Streams</th>
+                                                    <th onclick="sortTable(8)">Weeks on Chart</th>
+                                                    <th onclick="sortTable(9)">Year</th>
+                                                    <th onclick="sortTable(10)">Song Length</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e028a3f0a3ca7929dea23cd274c" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0u2P5u6lvoDfwTYjAADbn4.html">lovely</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/6LuN9FCkKOj5PcnpouEgny.html">Khalid</a></span></td><td><span class="line2"><a href="../week/2018_04_26.html">April 26, 2018</a></span></td>
+                <td>106</td><td><span class="line2"><a href="../week/2018_06_14.html">June 14, 2018</a></span></td><td>13</td><td>160,478</td>
+                <td>583</td>
+                <td>2018</td>
+                <td>3:20</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f2248cf6dad1d6c062587249" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3ZCTVFBt2Brf31RLEnCkWJ.html">everything i wanted</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_11_21.html">November 21, 2019</a></span></td>
+                <td>4</td><td><span class="line2"><a href="../week/2019_11_21.html">November 21, 2019</a></span></td><td>4</td><td>328,875</td>
+                <td>51</td>
+                <td>2019</td>
+                <td>4:05</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027a152619a7b55bc621d07901" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/54bFM56PmE4YLRnqpW6Tha.html">Therefore I Am</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2020_11_19.html">November 19, 2020</a></span></td>
+                <td>4</td><td><span class="line2"><a href="../week/2020_11_19.html">November 19, 2020</a></span></td><td>4</td><td>235,664</td>
+                <td>22</td>
+                <td>2020</td>
+                <td>2:54</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02a69b8b111a5fb8cb1c97e8eb" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3yNZ5r3LKfdmjoS3gkhUCT.html">bad guy</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/1uNFoZAHBGtllmzznpCI3s.html">Justin Bieber</a></span></td><td><span class="line2"><a href="../week/2019_07_18.html">July 18, 2019</a></span></td>
+                <td>7</td><td><span class="line2"><a href="../week/2019_07_25.html">July 25, 2019</a></span></td><td>6</td><td>266,865</td>
+                <td>14</td>
+                <td>2019</td>
+                <td>3:14</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e029c05fec02bd9b81ee1246b2f" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/40T5GIqQ1CegGm2PTEl8Bu.html">idontwannabeyouanymore</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2018_11_22.html">November 22, 2018</a></span></td>
+                <td>155</td><td><span class="line2"><a href="../week/2019_01_10.html">January 10, 2019</a></span></td><td>101</td><td>61,410</td>
+                <td>36</td>
+                <td>2017</td>
+                <td>3:23</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022cafcdd985630d72594ecc49" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2uIX8YMNjGMD7441kqyyNU.html">ocean eyes</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2018_06_28.html">June 28, 2018</a></span></td>
+                <td>168</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>139</td><td>54,756</td>
+                <td>12</td>
+                <td>2016</td>
+                <td>3:20</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3XF5xLJHOQQRbWya6hBp7d.html">you should see me in a crown</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2018_07_26.html">July 26, 2018</a></span></td>
+                <td>108</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>54</td><td>92,307</td>
+                <td>9</td>
+                <td>2019</td>
+                <td>3:00</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0219fc30a2e29973763e3d8a53" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2xdwCJLfKCkat14mlgR26M.html">Lost Cause</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_06_10.html">June 10, 2021</a></span></td>
+                <td>16</td><td><span class="line2"><a href="../week/2021_06_10.html">June 10, 2021</a></span></td><td>16</td><td>137,460</td>
+                <td>7</td>
+                <td>2021</td>
+                <td>3:32</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3QaPy1KgI7nu9FJEQUgn6h.html">WILDFLOWER</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>34</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>34</td><td>144,114</td>
+                <td>9</td>
+                <td>2024</td>
+                <td>4:21</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4QIo4oxwzzafcBWkKjDpXY.html">xanny</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>50</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>50</td><td>99,917</td>
+                <td>5</td>
+                <td>2019</td>
+                <td>4:03</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2prqm9sPLj10B4Wg0wE5x9.html">BLUE</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>44</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>44</td><td>122,368</td>
+                <td>9</td>
+                <td>2024</td>
+                <td>5:43</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7bcy34fBT2ap1L4bfPsl9q.html">I Didn't Change My Number</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>160</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>157</td><td>52,016</td>
+                <td>2</td>
+                <td>2021</td>
+                <td>2:38</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02e0f2af91be409aad81bba98c" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/04sN26COy28wTXYj3dMoiZ.html">Bored</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td>
+                <td>103</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>103</td><td>60,616</td>
+                <td>1</td>
+                <td>2017</td>
+                <td>3:00</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2Fxmhks0bxGSBdJ92vM42m.html">bad guy</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>2</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>2</td><td>324,134</td>
+                <td>98</td>
+                <td>2019</td>
+                <td>3:14</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02ed317ec13d3de9e01fb99c9e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6wf7Yu7cxBSPrRlWeSeK0Q.html">What Was I Made For? [From The Motion Picture "Barbie"]</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2023_07_20.html">July 20, 2023</a></span></td>
+                <td>24</td><td><span class="line2"><a href="../week/2023_08_03.html">August 3, 2023</a></span></td><td>3</td><td>351,735</td>
+                <td>97</td>
+                <td>2023</td>
+                <td>3:42</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4RVwu0g32PAqgUiJoXsdF8.html">Happier Than Ever</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>9</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>9</td><td>202,345</td>
+                <td>67</td>
+                <td>2021</td>
+                <td>4:58</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3Fj47GNK2kUF0uaEDgXLaD.html">wish you were gay</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_03_07.html">March 7, 2019</a></span></td>
+                <td>75</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>13</td><td>187,152</td>
+                <td>22</td>
+                <td>2019</td>
+                <td>3:41</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027a4781629469bb83356cd318" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3GYlZ7tbxLOxe6ewMNVTkw.html">TV</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td>
+                <td>38</td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td><td>38</td><td>98,158</td>
+                <td>27</td>
+                <td>2022</td>
+                <td>4:41</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6dOtVTDdiauQNBQEDOtlAB.html">BIRDS OF A FEATHER</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>15</td><td><span class="line2"><a href="../week/2024_06_06.html">June 6, 2024</a></span></td><td>2</td><td>538,698</td>
+                <td>9</td>
+                <td>2024</td>
+                <td>3:30</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02ba4cad4533efdd06fa843a39" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/5qNh5WtzMbfpSj2jLlBkoD.html">Your Power</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_05_06.html">May 6, 2021</a></span></td>
+                <td>9</td><td><span class="line2"><a href="../week/2021_05_06.html">May 6, 2021</a></span></td><td>9</td><td>241,618</td>
+                <td>8</td>
+                <td>2021</td>
+                <td>4:05</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7BRD7x5pt8Lqa1eGYC4dzj.html">CHIHIRO</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>18</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>18</td><td>201,052</td>
+                <td>9</td>
+                <td>2024</td>
+                <td>5:03</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/1LLUoftvmTjVNBHZoQyveF.html">THE DINER</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>78</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>78</td><td>91,281</td>
+                <td>2</td>
+                <td>2024</td>
+                <td>3:06</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7qEKqBCD2vE5vIBsrUitpD.html">ilomilo</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>80</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>80</td><td>77,183</td>
+                <td>2</td>
+                <td>2019</td>
+                <td>2:36</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e027a4781629469bb83356cd318" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/5SHpuW2qjkQtFRpE6P9Nks.html">The 30th</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td>
+                <td>89</td><td><span class="line2"><a href="../week/2022_07_28.html">July 28, 2022</a></span></td><td>89</td><td>63,495</td>
+                <td>2</td>
+                <td>2022</td>
+                <td>3:36</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2KnuaZYoGzDoHiBTNYOTXG.html">Billie Bossa Nova</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>123</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>101</td><td>61,294</td>
+                <td>2</td>
+                <td>2021</td>
+                <td>3:16</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6X29iaaazwho3ab7GNue5r.html">8</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>100</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>100</td><td>68,854</td>
+                <td>1</td>
+                <td>2019</td>
+                <td>2:53</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3LgWsmilsrWXiPYQFRD0T7.html">goodbye</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>141</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>141</td><td>53,775</td>
+                <td>1</td>
+                <td>2019</td>
+                <td>1:59</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02f7b7174bef6f3fbfda3a0bb7" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/73SpzrcaHk0RQPFP73vqVR.html">No Time To Die</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2020_02_20.html">February 20, 2020</a></span></td>
+                <td>9</td><td><span class="line2"><a href="../week/2020_02_20.html">February 20, 2020</a></span></td><td>9</td><td>251,333</td>
+                <td>10</td>
+                <td>2020</td>
+                <td>4:02</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02954fe13f7c5f4b2f18d066b8" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/2ygvZOXrIeVL4xZmAWJT2C.html">my future</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2020_08_06.html">August 6, 2020</a></span></td>
+                <td>6</td><td><span class="line2"><a href="../week/2020_08_06.html">August 6, 2020</a></span></td><td>6</td><td>179,464</td>
+                <td>12</td>
+                <td>2020</td>
+                <td>3:28</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0231aa3ebe23f59778bff800c9" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/32BeYxKPrig1LefHsC0Xuo.html">Happier Than Ever - Edit</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_09_16.html">September 16, 2021</a></span></td>
+                <td>136</td><td><span class="line2"><a href="../week/2021_10_14.html">October 14, 2021</a></span></td><td>61</td><td>73,398</td>
+                <td>17</td>
+                <td>2021</td>
+                <td>2:31</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/629DixmZGHc7ILtEntuiWE.html">LUNCH</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>7</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>7</td><td>306,575</td>
+                <td>9</td>
+                <td>2024</td>
+                <td>2:59</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6CcJMwBtXByIz4zQLzFkKc.html">i love you</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>61</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>61</td><td>87,672</td>
+                <td>9</td>
+                <td>2019</td>
+                <td>4:51</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6IRdLKIyS4p7XNiP8r6rsx.html">all the good girls go to hell</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>35</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>35</td><td>116,871</td>
+                <td>7</td>
+                <td>2019</td>
+                <td>2:48</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/1CsMKhwEmNnmvHUuO5nryA.html">SKINNY</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>35</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>35</td><td>138,986</td>
+                <td>7</td>
+                <td>2024</td>
+                <td>3:39</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0248a98a5a97b2cc7963016888" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7wC5eZcFS1Q1BsQ35DU6H4.html">come out and play</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td>
+                <td>34</td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td><td>34</td><td>119,916</td>
+                <td>3</td>
+                <td>2018</td>
+                <td>3:30</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e024adbeb26299adca766cec2c5" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/51NFxnQvaosfDDutk0tams.html">bellyache</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td>
+                <td>124</td><td><span class="line2"><a href="../week/2018_11_29.html">November 29, 2018</a></span></td><td>124</td><td>50,996</td>
+                <td>4</td>
+                <td>2017</td>
+                <td>2:59</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0tMSssfxAL2oV8Vri0mFHE.html">listen before i go</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>69</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>69</td><td>83,497</td>
+                <td>3</td>
+                <td>2019</td>
+                <td>4:02</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/5XsAal7ZcWg1I5T4NcRjkv.html">Halley's Comet</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>158</td><td><span class="line2"><a href="../week/2022_08_25.html">August 25, 2022</a></span></td><td>114</td><td>57,935</td>
+                <td>2</td>
+                <td>2021</td>
+                <td>3:54</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/43zdsphuZLzwA9k4DJhU0I.html">when the party's over</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2018_10_25.html">October 25, 2018</a></span></td>
+                <td>67</td><td><span class="line2"><a href="../week/2018_11_22.html">November 22, 2018</a></span></td><td>29</td><td>125,060</td>
+                <td>60</td>
+                <td>2019</td>
+                <td>3:16</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4SSnFejRGlZikf02HLewEF.html">bury a friend</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_02_07.html">February 7, 2019</a></span></td>
+                <td>10</td><td><span class="line2"><a href="../week/2019_02_07.html">February 7, 2019</a></span></td><td>10</td><td>211,224</td>
+                <td>24</td>
+                <td>2019</td>
+                <td>3:13</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0261520bfb3749817d193d71f4" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6uqyE384HDSsuwpoF4mjrL.html">NDA</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_07_15.html">July 15, 2021</a></span></td>
+                <td>27</td><td><span class="line2"><a href="../week/2021_07_15.html">July 15, 2021</a></span></td><td>27</td><td>123,285</td>
+                <td>6</td>
+                <td>2021</td>
+                <td>3:15</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6fPan2saHdFaIHuTSatORv.html">L’AMOUR DE MA VIE</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>42</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>42</td><td>123,221</td>
+                <td>9</td>
+                <td>2024</td>
+                <td>5:33</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/6TGd66r0nlPaYm3KIoI7ET.html">THE GREATEST</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>47</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>47</td><td>118,506</td>
+                <td>7</td>
+                <td>2024</td>
+                <td>4:53</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0250a3147b4edd7701a876c6ce" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/3Tc57t9l2O8FwQZtQOvPXK.html">my strange addiction</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td>
+                <td>68</td><td><span class="line2"><a href="../week/2019_04_04.html">April 4, 2019</a></span></td><td>68</td><td>83,744</td>
+                <td>4</td>
+                <td>2019</td>
+                <td>2:59</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/7DpUoxGSdlDHfqCYj0otzU.html">BITTERSUITE</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td>
+                <td>81</td><td><span class="line2"><a href="../week/2024_05_23.html">May 23, 2024</a></span></td><td>81</td><td>89,967</td>
+                <td>2</td>
+                <td>2024</td>
+                <td>4:58</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e02c64ed7bab63186d7fca3012f" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/0psS4i5YooJrXfDnGvWRLi.html">Lo Vas A Olvidar</a></span>
+                </td><td class="line-container"><span class="line1"><a href="../artist/7ltDVBr6mKbRvohxheJ9h1.html">ROSALÍA</a></span></td><td><span class="line2"><a href="../week/2021_01_28.html">January 28, 2021</a></span></td>
+                <td>81</td><td><span class="line2"><a href="../week/2021_01_28.html">January 28, 2021</a></span></td><td>81</td><td>61,937</td>
+                <td>2</td>
+                <td>2021</td>
+                <td>3:23</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4HOryCnbme0zBnF8LWij3f.html">Getting Older</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>101</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>101</td><td>54,092</td>
+                <td>2</td>
+                <td>2021</td>
+                <td>4:04</td>
+                                                </tr><tr>
+                <td class="image-cell"><img src="https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e" alt=""/></td>
+                <td class="line-container">
+                    <span class="line1"><a href="../track/4t2OeILB07eMGTXSUbMPEu.html">Oxytocin</a></span>
+                </td><td></td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td>
+                <td>167</td><td><span class="line2"><a href="../week/2021_08_05.html">August 5, 2021</a></span></td><td>167</td><td>49,489</td>
+                <td>2</td>
+                <td>2021</td>
+                <td>3:30</td>
+                                                </tr></tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
 
-                    </div>
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
 
-                <!-- Scripts -->
-                    <script src="../../assets/js/jquery.min.js"></script>
-                    <script src="../../assets/js/browser.min.js"></script>
-                    <script src="../../assets/js/breakpoints.min.js"></script>
-                    <script src="../../assets/js/util.js"></script>
-                    <script src="../../assets/js/main.js"></script>
-                    <script src="../../assets/js/sorttable.js"></script>
-            </body>
-        </html>
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/sorttable.js"></script>
+        </body>
+    </html>
