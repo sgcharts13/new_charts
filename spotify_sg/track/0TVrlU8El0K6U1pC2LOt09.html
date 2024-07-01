@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e020c9dad4149eeeb6a721d4025" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">如果能幸福 - HBO Asia原創影集《戒指流浪記》片尾曲</h1>
+                                        <span class="line1"><a href="../artist/5fEQLwq1BWWQNR8GzhOIvi.html">Eric Chou</a></span><br>
+                                        <span class="line1">2020&nbsp&nbsp●&nbsp&nbsp4:19</span><br>
+                                        <span class="line1">Peak: 68&nbsp&nbsp●&nbsp&nbsp63,227 streams</span><br>
+                                        <div>
+                                            <span class="line1">7 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">28 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2020_12_24", "date": "December 24, 2020", "pos": 104, "streams": 62459, "streamschange": "", "streamspercent": "" },{ "weekname":"2020_12_31", "date": "December 31, 2020", "pos": 100, "streams": 56752, "streamschange": "-5707", "streamspercent": "-9.1%" },{ "weekname":"2021_01_07", "date": "January 7, 2021", "pos": 84, "streams": 58927, "streamschange": "+2175", "streamspercent": "+3.8%" },{ "weekname":"2021_01_14", "date": "January 14, 2021", "pos": 108, "streams": 53962, "streamschange": "-4965", "streamspercent": "-8.4%" },{ "weekname":"2021_01_21", "date": "January 21, 2021", "pos": 135, "streams": 48732, "streamschange": "-5230", "streamspercent": "-9.7%" },{ "weekname":"2021_01_28", "date": "January 28, 2021", "pos": 158, "streams": 45623, "streamschange": "-3109", "streamspercent": "-6.4%" },{ "weekname":"2021_02_04", "date": "February 4, 2021", "pos": 145, "streams": 48167, "streamschange": "+2544", "streamspercent": "+5.6%" },{ "weekname":"2021_02_11", "date": "February 11, 2021", "pos": 99, "streams": 55539, "streamschange": "+7372", "streamspercent": "+15.3%" },{ "weekname":"2021_02_18", "date": "February 18, 2021", "pos": 68, "streams": 60441, "streamschange": "+4902", "streamspercent": "+8.8%" },{ "weekname":"2021_02_25", "date": "February 25, 2021", "pos": 74, "streams": 63227, "streamschange": "+2786", "streamspercent": "+4.6%" },{ "weekname":"2021_03_04", "date": "March 4, 2021", "pos": 78, "streams": 60941, "streamschange": "-2286", "streamspercent": "-3.6%" },{ "weekname":"2021_03_11", "date": "March 11, 2021", "pos": 80, "streams": 61444, "streamschange": "+503", "streamspercent": "+0.8%" },{ "weekname":"2021_03_18", "date": "March 18, 2021", "pos": 103, "streams": 56227, "streamschange": "-5217", "streamspercent": "-8.5%" },{ "weekname":"2021_03_25", "date": "March 25, 2021", "pos": 104, "streams": 55042, "streamschange": "-1185", "streamspercent": "-2.1%" },{ "weekname":"2021_04_01", "date": "April 1, 2021", "pos": 110, "streams": 53601, "streamschange": "-1441", "streamspercent": "-2.6%" },{ "weekname":"2021_04_08", "date": "April 8, 2021", "pos": 107, "streams": 52561, "streamschange": "-1040", "streamspercent": "-1.9%" },{ "weekname":"2021_04_15", "date": "April 15, 2021", "pos": 123, "streams": 52683, "streamschange": "+122", "streamspercent": "+0.2%" },{ "weekname":"2021_04_22", "date": "April 22, 2021", "pos": 113, "streams": 52046, "streamschange": "-637", "streamspercent": "-1.2%" },{ "weekname":"2021_04_29", "date": "April 29, 2021", "pos": 118, "streams": 52178, "streamschange": "+132", "streamspercent": "+0.3%" },{ "weekname":"2021_05_06", "date": "May 6, 2021", "pos": 126, "streams": 50761, "streamschange": "-1417", "streamspercent": "-2.7%" },{ "weekname":"2021_05_13", "date": "May 13, 2021", "pos": 140, "streams": 47504, "streamschange": "-3257", "streamspercent": "-6.4%" },{ "weekname":"2021_05_20", "date": "May 20, 2021", "pos": 149, "streams": 44052, "streamschange": "-3452", "streamspercent": "-7.3%" },{ "weekname":"2021_05_27", "date": "May 27, 2021", "pos": 145, "streams": 45418, "streamschange": "+1366", "streamspercent": "+3.1%" },{ "weekname":"2021_06_03", "date": "June 3, 2021", "pos": 119, "streams": 48997, "streamschange": "+3579", "streamspercent": "+7.9%" },{ "weekname":"2021_06_10", "date": "June 10, 2021", "pos": 139, "streams": 46170, "streamschange": "-2827", "streamspercent": "-5.8%" },{ "weekname":"2021_06_17", "date": "June 17, 2021", "pos": 170, "streams": 42780, "streamschange": "-3390", "streamspercent": "-7.3%" },{ "weekname":"2021_06_24", "date": "June 24, 2021", "pos": 154, "streams": 43960, "streamschange": "+1180", "streamspercent": "+2.8%" },{ "weekname":"2021_07_01", "date": "July 1, 2021", "pos": 198, "streams": 39078, "streamschange": "-4882", "streamspercent": "-11.1%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Eric Chou - 如果能幸福 - HBO Asia原創影集《戒指流浪記》片尾曲",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e020c9dad4149eeeb6a721d4025",
+                                                "peak_pos": "68",
+                                                "peak_streams": "63227"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

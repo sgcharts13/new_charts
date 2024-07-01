@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e02b80c66d1160220d915d31cab" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">想知道你在想什麼 - 《我吃了那男孩一整年的早餐》電影主題曲</h1>
+                                        <span class="line1"><a href="../artist/5fEQLwq1BWWQNR8GzhOIvi.html">Eric Chou</a></span><br>
+                                        <span class="line1">2022&nbsp&nbsp●&nbsp&nbsp4:54</span><br>
+                                        <span class="line1">Peak: 16&nbsp&nbsp●&nbsp&nbsp131,794 streams</span><br>
+                                        <div>
+                                            <span class="line1">7 Weeks in Top 50&nbsp&nbsp●&nbsp&nbsp12 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">44 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2022_02_03", "date": "February 3, 2022", "pos": 16, "streams": 131794, "streamschange": "", "streamspercent": "" },{ "weekname":"2022_02_10", "date": "February 10, 2022", "pos": 20, "streams": 125361, "streamschange": "-6433", "streamspercent": "-4.9%" },{ "weekname":"2022_02_17", "date": "February 17, 2022", "pos": 24, "streams": 118432, "streamschange": "-6929", "streamspercent": "-5.5%" },{ "weekname":"2022_02_24", "date": "February 24, 2022", "pos": 26, "streams": 113030, "streamschange": "-5402", "streamspercent": "-4.6%" },{ "weekname":"2022_03_03", "date": "March 3, 2022", "pos": 31, "streams": 100318, "streamschange": "-12712", "streamspercent": "-11.2%" },{ "weekname":"2022_03_10", "date": "March 10, 2022", "pos": 46, "streams": 82336, "streamschange": "-17982", "streamspercent": "-17.9%" },{ "weekname":"2022_03_17", "date": "March 17, 2022", "pos": 50, "streams": 76962, "streamschange": "-5374", "streamspercent": "-6.5%" },{ "weekname":"2022_03_24", "date": "March 24, 2022", "pos": 64, "streams": 66973, "streamschange": "-9989", "streamspercent": "-13.0%" },{ "weekname":"2022_03_31", "date": "March 31, 2022", "pos": 73, "streams": 61816, "streamschange": "-5157", "streamspercent": "-7.7%" },{ "weekname":"2022_04_07", "date": "April 7, 2022", "pos": 95, "streams": 56345, "streamschange": "-5471", "streamspercent": "-8.9%" },{ "weekname":"2022_04_14", "date": "April 14, 2022", "pos": 110, "streams": 53212, "streamschange": "-3133", "streamspercent": "-5.6%" },{ "weekname":"2022_04_21", "date": "April 21, 2022", "pos": 131, "streams": 49949, "streamschange": "-3263", "streamspercent": "-6.1%" },{ "weekname":"2022_04_28", "date": "April 28, 2022", "pos": 139, "streams": 50091, "streamschange": "+142", "streamspercent": "+0.3%" },{ "weekname":"2022_05_05", "date": "May 5, 2022", "pos": 144, "streams": 46098, "streamschange": "-3993", "streamspercent": "-8.0%" },{ "weekname":"2022_05_12", "date": "May 12, 2022", "pos": 134, "streams": 49320, "streamschange": "+3222", "streamspercent": "+7.0%" },{ "weekname":"2022_05_19", "date": "May 19, 2022", "pos": 163, "streams": 44855, "streamschange": "-4465", "streamspercent": "-9.1%" },{ "weekname":"2022_05_26", "date": "May 26, 2022", "pos": 181, "streams": 44537, "streamschange": "-318", "streamspercent": "-0.7%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2022_06_09", "date": "June 9, 2022", "pos": 165, "streams": 47093, "streamschange": "", "streamspercent": "" },{ "weekname":"2022_06_16", "date": "June 16, 2022", "pos": 117, "streams": 53102, "streamschange": "+6009", "streamspercent": "+12.8%" },{ "weekname":"2022_06_23", "date": "June 23, 2022", "pos": 138, "streams": 49366, "streamschange": "-3736", "streamspercent": "-7.0%" },{ "weekname":"2022_06_30", "date": "June 30, 2022", "pos": 155, "streams": 46941, "streamschange": "-2425", "streamspercent": "-4.9%" },{ "weekname":"2022_07_07", "date": "July 7, 2022", "pos": 163, "streams": 46475, "streamschange": "-466", "streamspercent": "-1.0%" },{ "weekname":"2022_07_14", "date": "July 14, 2022", "pos": 178, "streams": 43123, "streamschange": "-3352", "streamspercent": "-7.2%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2022_07_28", "date": "July 28, 2022", "pos": 176, "streams": 47085, "streamschange": "", "streamspercent": "" },{ "weekname":"2022_08_04", "date": "August 4, 2022", "pos": 182, "streams": 45982, "streamschange": "-1103", "streamspercent": "-2.3%" },{ "weekname":"2022_08_11", "date": "August 11, 2022", "pos": 159, "streams": 49938, "streamschange": "+3956", "streamspercent": "+8.6%" },{ "weekname":"2022_08_18", "date": "August 18, 2022", "pos": 148, "streams": 50740, "streamschange": "+802", "streamspercent": "+1.6%" },{ "weekname":"2022_08_25", "date": "August 25, 2022", "pos": 188, "streams": 47703, "streamschange": "-3037", "streamspercent": "-6.0%" },{ "weekname":"2022_09_01", "date": "September 1, 2022", "pos": 177, "streams": 48045, "streamschange": "+342", "streamspercent": "+0.7%" },{ "weekname":"2022_09_08", "date": "September 8, 2022", "pos": 164, "streams": 51069, "streamschange": "+3024", "streamspercent": "+6.3%" },{ "weekname":"2022_09_15", "date": "September 15, 2022", "pos": 53, "streams": 85595, "streamschange": "+34526", "streamspercent": "+67.6%" },{ "weekname":"2022_09_22", "date": "September 22, 2022", "pos": 91, "streams": 66528, "streamschange": "-19067", "streamspercent": "-22.3%" },{ "weekname":"2022_09_29", "date": "September 29, 2022", "pos": 115, "streams": 59949, "streamschange": "-6579", "streamspercent": "-9.9%" },{ "weekname":"2022_10_06", "date": "October 6, 2022", "pos": 142, "streams": 54565, "streamschange": "-5384", "streamspercent": "-9.0%" },{ "weekname":"2022_10_13", "date": "October 13, 2022", "pos": 140, "streams": 53337, "streamschange": "-1228", "streamspercent": "-2.3%" },{ "weekname":"2022_10_20", "date": "October 20, 2022", "pos": 154, "streams": 51587, "streamschange": "-1750", "streamspercent": "-3.3%" },{ "weekname":"2022_10_27", "date": "October 27, 2022", "pos": 189, "streams": 47411, "streamschange": "-4176", "streamspercent": "-8.1%" },{ "weekname":"2022_11_03", "date": "November 3, 2022", "pos": 176, "streams": 51014, "streamschange": "+3603", "streamspercent": "+7.6%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2022_11_17", "date": "November 17, 2022", "pos": 180, "streams": 50695, "streamschange": "", "streamspercent": "" },{ "weekname":"2022_11_24", "date": "November 24, 2022", "pos": 200, "streams": 47230, "streamschange": "-3465", "streamspercent": "-6.8%" },{ "weekname":"2022_12_01", "date": "December 1, 2022", "pos": 200, "streams": 47381, "streamschange": "+151", "streamspercent": "+0.3%" },{ "weekname":"2022_12_08", "date": "December 8, 2022", "pos": 186, "streams": 49948, "streamschange": "+2567", "streamspercent": "+5.4%" },{ "weekname":"2022_12_15", "date": "December 15, 2022", "pos": 194, "streams": 45590, "streamschange": "-4358", "streamspercent": "-8.7%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2023_01_05", "date": "January 5, 2023", "pos": 197, "streams": 42440, "streamschange": "", "streamspercent": "" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Eric Chou - 想知道你在想什麼 - 《我吃了那男孩一整年的早餐》電影主題曲",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e02b80c66d1160220d915d31cab",
+                                                "peak_pos": "16",
+                                                "peak_streams": "131794"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

@@ -1,8 +1,10 @@
 function showTable(tableId, buttonId) {
     // Hide all tables
     const tablesWrapper1 = document.querySelectorAll('.table-wrapper');
-    const tablesWrapper2 = document.querySelectorAll('.table-wrapper-2');
-    const tables = [...tablesWrapper1, ...tablesWrapper2];
+    const tablesWrapper2 = document.querySelectorAll('.table-wrapper-active');
+    const tablesWrapper3 = document.querySelectorAll('.table-wrapper-2');
+    const tablesWrapper4 = document.querySelectorAll('.table-wrapper-2-active');
+    const tables = [...tablesWrapper1, ...tablesWrapper2, ...tablesWrapper3, ...tablesWrapper4];
     tables.forEach(function(table) {
         table.classList.remove('active');
     });

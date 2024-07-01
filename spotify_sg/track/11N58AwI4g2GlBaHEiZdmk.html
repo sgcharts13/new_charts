@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e02f17ddc825889b0dd22798b9b" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Boom Clap - Soundtrack Version</h1>
+                                        <span class="line1"><a href="../artist/25uiPmTg16RbhZWAqwLBy5.html">Charli XCX</a></span><br>
+                                        <span class="line1">2014&nbsp&nbsp●&nbsp&nbsp2:49</span><br>
+                                        <span class="line1">Peak: 10&nbsp&nbsp●&nbsp&nbsp44,158 streams</span><br>
+                                        <div>
+                                            <span class="line1">1 Week in Top 10&nbsp&nbsp●&nbsp&nbsp17 Weeks in Top 50&nbsp&nbsp●&nbsp&nbsp27 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">32 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2014_07_13", "date": "July 13, 2014", "pos": 29, "streams": 21690, "streamschange": "", "streamspercent": "" },{ "weekname":"2014_07_20", "date": "July 20, 2014", "pos": 17, "streams": 31135, "streamschange": "+9445", "streamspercent": "+43.5%" },{ "weekname":"2014_07_27", "date": "July 27, 2014", "pos": 13, "streams": 36166, "streamschange": "+5031", "streamspercent": "+16.2%" },{ "weekname":"2014_08_03", "date": "August 3, 2014", "pos": 11, "streams": 37715, "streamschange": "+1549", "streamspercent": "+4.3%" },{ "weekname":"2014_08_10", "date": "August 10, 2014", "pos": 11, "streams": 38943, "streamschange": "+1228", "streamspercent": "+3.3%" },{ "weekname":"2014_08_17", "date": "August 17, 2014", "pos": 10, "streams": 44158, "streamschange": "+5215", "streamspercent": "+13.4%" },{ "weekname":"2014_08_24", "date": "August 24, 2014", "pos": 24, "streams": 32270, "streamschange": "-11888", "streamspercent": "-26.9%" },{ "weekname":"2014_08_31", "date": "August 31, 2014", "pos": 27, "streams": 28560, "streamschange": "-3710", "streamspercent": "-11.5%" },{ "weekname":"2014_09_07", "date": "September 7, 2014", "pos": 28, "streams": 28712, "streamschange": "+152", "streamspercent": "+0.5%" },{ "weekname":"2014_09_14", "date": "September 14, 2014", "pos": 26, "streams": 32454, "streamschange": "+3742", "streamspercent": "+13.0%" },{ "weekname":"2014_09_21", "date": "September 21, 2014", "pos": 28, "streams": 31155, "streamschange": "-1299", "streamspercent": "-4.0%" },{ "weekname":"2014_09_28", "date": "September 28, 2014", "pos": 40, "streams": 28136, "streamschange": "-3019", "streamspercent": "-9.7%" },{ "weekname":"2014_10_05", "date": "October 5, 2014", "pos": 37, "streams": 27607, "streamschange": "-529", "streamspercent": "-1.9%" },{ "weekname":"2014_10_12", "date": "October 12, 2014", "pos": 42, "streams": 26287, "streamschange": "-1320", "streamspercent": "-4.8%" },{ "weekname":"2014_10_19", "date": "October 19, 2014", "pos": 45, "streams": 25285, "streamschange": "-1002", "streamspercent": "-3.8%" },{ "weekname":"2014_10_26", "date": "October 26, 2014", "pos": 45, "streams": 23231, "streamschange": "-2054", "streamspercent": "-8.1%" },{ "weekname":"2014_11_02", "date": "November 2, 2014", "pos": 50, "streams": 23729, "streamschange": "+498", "streamspercent": "+2.1%" },{ "weekname":"2014_11_09", "date": "November 9, 2014", "pos": 51, "streams": 23486, "streamschange": "-243", "streamspercent": "-1.0%" },{ "weekname":"2014_11_16", "date": "November 16, 2014", "pos": 51, "streams": 22836, "streamschange": "-650", "streamspercent": "-2.8%" },{ "weekname":"2014_11_23", "date": "November 23, 2014", "pos": 54, "streams": 22398, "streamschange": "-438", "streamspercent": "-1.9%" },{ "weekname":"2014_11_30", "date": "November 30, 2014", "pos": 61, "streams": 20082, "streamschange": "-2316", "streamspercent": "-10.3%" },{ "weekname":"2014_12_07", "date": "December 7, 2014", "pos": 65, "streams": 18711, "streamschange": "-1371", "streamspercent": "-6.8%" },{ "weekname":"2014_12_14", "date": "December 14, 2014", "pos": 87, "streams": 15746, "streamschange": "-2965", "streamspercent": "-15.8%" },{ "weekname":"2014_12_21", "date": "December 21, 2014", "pos": 85, "streams": 14640, "streamschange": "-1106", "streamspercent": "-7.0%" },{ "weekname":"2014_12_28", "date": "December 28, 2014", "pos": 104, "streams": 12234, "streamschange": "-2406", "streamspercent": "-16.4%" },{ "weekname":"2015_01_04", "date": "January 4, 2015", "pos": 88, "streams": 15316, "streamschange": "+3082", "streamspercent": "+25.2%" },{ "weekname":"2015_01_11", "date": "January 11, 2015", "pos": 96, "streams": 14799, "streamschange": "-517", "streamspercent": "-3.4%" },{ "weekname":"2015_01_18", "date": "January 18, 2015", "pos": 99, "streams": 13672, "streamschange": "-1127", "streamspercent": "-7.6%" },{ "weekname":"2015_01_25", "date": "January 25, 2015", "pos": 138, "streams": 10517, "streamschange": "-3155", "streamspercent": "-23.1%" },{ "weekname":"2015_02_01", "date": "February 1, 2015", "pos": 138, "streams": 9982, "streamschange": "-535", "streamspercent": "-5.1%" },{ "weekname":"2015_02_08", "date": "February 8, 2015", "pos": 144, "streams": 9385, "streamschange": "-597", "streamspercent": "-6.0%" },{ "weekname":"2015_02_15", "date": "February 15, 2015", "pos": 166, "streams": 8768, "streamschange": "-617", "streamspercent": "-6.6%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Charli XCX - Boom Clap - Soundtrack Version",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e02f17ddc825889b0dd22798b9b",
+                                                "peak_pos": "10",
+                                                "peak_streams": "44158"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

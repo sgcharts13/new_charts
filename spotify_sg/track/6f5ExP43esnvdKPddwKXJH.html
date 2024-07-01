@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e026b742298f7f36717855c4caf" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Better Days (NEIKED x Mae Muller x Polo G)</h1>
+                                        <span class="line1"><a href="../artist/5H6xmHXjsq98NLbEjuE29f.html">NEIKED, </a><a href="../artist/1BEUkE2CSUgHTLSBMZdnFB.html">Mae Muller, </a><a href="../artist/6AgTAQt8XS6jRWi4sX7w49.html">Polo G</a></span><br>
+                                        <span class="line1">2021&nbsp&nbsp●&nbsp&nbsp2:40</span><br>
+                                        <span class="line1">Peak: 46&nbsp&nbsp●&nbsp&nbsp91,921 streams</span><br>
+                                        <div>
+                                            <span class="line1">1 Week in Top 50&nbsp&nbsp●&nbsp&nbsp7 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">27 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2021_10_28", "date": "October 28, 2021", "pos": 84, "streams": 61328, "streamschange": "", "streamspercent": "" },{ "weekname":"2021_11_04", "date": "November 4, 2021", "pos": 46, "streams": 91921, "streamschange": "+30593", "streamspercent": "+49.9%" },{ "weekname":"2021_11_11", "date": "November 11, 2021", "pos": 51, "streams": 85155, "streamschange": "-6766", "streamspercent": "-7.4%" },{ "weekname":"2021_11_18", "date": "November 18, 2021", "pos": 82, "streams": 77522, "streamschange": "-7633", "streamspercent": "-9.0%" },{ "weekname":"2021_11_25", "date": "November 25, 2021", "pos": 65, "streams": 77241, "streamschange": "-281", "streamspercent": "-0.4%" },{ "weekname":"2021_12_02", "date": "December 2, 2021", "pos": 72, "streams": 72640, "streamschange": "-4601", "streamspercent": "-6.0%" },{ "weekname":"2021_12_09", "date": "December 9, 2021", "pos": 102, "streams": 60621, "streamschange": "-12019", "streamspercent": "-16.5%" },{ "weekname":"2021_12_16", "date": "December 16, 2021", "pos": 108, "streams": 55489, "streamschange": "-5132", "streamspercent": "-8.5%" },{ "weekname":"2021_12_23", "date": "December 23, 2021", "pos": 124, "streams": 51253, "streamschange": "-4236", "streamspercent": "-7.6%" },{ "weekname":"2021_12_30", "date": "December 30, 2021", "pos": 138, "streams": 49761, "streamschange": "-1492", "streamspercent": "-2.9%" },{ "weekname":"2022_01_06", "date": "January 6, 2022", "pos": 96, "streams": 53873, "streamschange": "+4112", "streamspercent": "+8.3%" },{ "weekname":"2022_01_13", "date": "January 13, 2022", "pos": 123, "streams": 52453, "streamschange": "-1420", "streamspercent": "-2.6%" },{ "weekname":"2022_01_20", "date": "January 20, 2022", "pos": 125, "streams": 51312, "streamschange": "-1141", "streamspercent": "-2.2%" },{ "weekname":"2022_01_27", "date": "January 27, 2022", "pos": 131, "streams": 50627, "streamschange": "-685", "streamspercent": "-1.3%" },{ "weekname":"2022_02_03", "date": "February 3, 2022", "pos": 121, "streams": 47477, "streamschange": "-3150", "streamspercent": "-6.2%" },{ "weekname":"2022_02_10", "date": "February 10, 2022", "pos": 136, "streams": 47003, "streamschange": "-474", "streamspercent": "-1.0%" },{ "weekname":"2022_02_17", "date": "February 17, 2022", "pos": 154, "streams": 46423, "streamschange": "-580", "streamspercent": "-1.2%" },{ "weekname":"2022_02_24", "date": "February 24, 2022", "pos": 154, "streams": 45602, "streamschange": "-821", "streamspercent": "-1.8%" },{ "weekname":"2022_03_03", "date": "March 3, 2022", "pos": 157, "streams": 43547, "streamschange": "-2055", "streamspercent": "-4.5%" },{ "weekname":"2022_03_10", "date": "March 10, 2022", "pos": 132, "streams": 46262, "streamschange": "+2715", "streamspercent": "+6.2%" },{ "weekname":"2022_03_17", "date": "March 17, 2022", "pos": 143, "streams": 45593, "streamschange": "-669", "streamspercent": "-1.4%" },{ "weekname":"2022_03_24", "date": "March 24, 2022", "pos": 167, "streams": 43695, "streamschange": "-1898", "streamspercent": "-4.2%" },{ "weekname":"2022_03_31", "date": "March 31, 2022", "pos": 166, "streams": 43749, "streamschange": "+54", "streamspercent": "+0.1%" },{ "weekname":"2022_04_07", "date": "April 7, 2022", "pos": 173, "streams": 43231, "streamschange": "-518", "streamspercent": "-1.2%" },{ "weekname":"2022_04_14", "date": "April 14, 2022", "pos": 177, "streams": 42745, "streamschange": "-486", "streamspercent": "-1.1%" },{ "weekname":"2022_04_21", "date": "April 21, 2022", "pos": 189, "streams": 41549, "streamschange": "-1196", "streamspercent": "-2.8%" },{ "weekname":"2022_04_28", "date": "April 28, 2022", "pos": 191, "streams": 43373, "streamschange": "+1824", "streamspercent": "+4.4%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "NEIKED, Mae Muller, Polo G - Better Days (NEIKED x Mae Muller x Polo G)",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e026b742298f7f36717855c4caf",
+                                                "peak_pos": "46",
+                                                "peak_streams": "91921"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

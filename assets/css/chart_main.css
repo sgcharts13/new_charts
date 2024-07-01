@@ -2439,7 +2439,7 @@ input, select, textarea {
 		}
 
 		.table-wrapper td:nth-child(2) {
-			width: 13%;
+			width: 9%;
 		}
 
 		.table-wrapper-2 td:nth-child(2) {
@@ -3474,11 +3474,11 @@ input, select, textarea {
 }
 
 .line5 {
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	vertical-align: middle;
 	font-weight: normal;
-	text-align: center;
+	padding: 0 0.4em;
 }
 
 .image-cell img {

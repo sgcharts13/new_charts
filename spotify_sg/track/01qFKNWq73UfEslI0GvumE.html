@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e0299583bb32b47e87d55c6064b" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">3D</h1>
+                                        <span class="line1"><a href="../artist/6HaGTQPmzraVmaVxvz6EUc.html">Jung Kook, </a><a href="../artist/2LIk90788K0zvyj2JJVwkJ.html">Jack Harlow</a></span><br>
+                                        <span class="line1">2023&nbsp&nbsp●&nbsp&nbsp3:21</span><br>
+                                        <span class="line1">Peak: 2&nbsp&nbsp●&nbsp&nbsp529,348 streams</span><br>
+                                        <div>
+                                            <span class="line1">17 Weeks in Top 10&nbsp&nbsp●&nbsp&nbsp33 Weeks in Top 50&nbsp&nbsp●&nbsp&nbsp38 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">74 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2023_10_05", "date": "October 5, 2023", "pos": 3, "streams": 515710, "streamschange": "", "streamspercent": "" },{ "weekname":"2023_10_12", "date": "October 12, 2023", "pos": 2, "streams": 529348, "streamschange": "+13638", "streamspercent": "+2.6%" },{ "weekname":"2023_10_19", "date": "October 19, 2023", "pos": 2, "streams": 394896, "streamschange": "-134452", "streamspercent": "-25.4%" },{ "weekname":"2023_10_26", "date": "October 26, 2023", "pos": 3, "streams": 358402, "streamschange": "-36494", "streamspercent": "-9.2%" },{ "weekname":"2023_11_02", "date": "November 2, 2023", "pos": 4, "streams": 317576, "streamschange": "-40826", "streamspercent": "-11.4%" },{ "weekname":"2023_11_09", "date": "November 9, 2023", "pos": 5, "streams": 295521, "streamschange": "-22055", "streamspercent": "-6.9%" },{ "weekname":"2023_11_16", "date": "November 16, 2023", "pos": 8, "streams": 220143, "streamschange": "-75378", "streamspercent": "-25.5%" },{ "weekname":"2023_11_23", "date": "November 23, 2023", "pos": 8, "streams": 209760, "streamschange": "-10383", "streamspercent": "-4.7%" },{ "weekname":"2023_11_30", "date": "November 30, 2023", "pos": 8, "streams": 210881, "streamschange": "+1121", "streamspercent": "+0.5%" },{ "weekname":"2023_12_07", "date": "December 7, 2023", "pos": 10, "streams": 190723, "streamschange": "-20158", "streamspercent": "-9.6%" },{ "weekname":"2023_12_14", "date": "December 14, 2023", "pos": 11, "streams": 181664, "streamschange": "-9059", "streamspercent": "-4.7%" },{ "weekname":"2023_12_21", "date": "December 21, 2023", "pos": 14, "streams": 161703, "streamschange": "-19961", "streamspercent": "-11.0%" },{ "weekname":"2023_12_28", "date": "December 28, 2023", "pos": 19, "streams": 153735, "streamschange": "-7968", "streamspercent": "-4.9%" },{ "weekname":"2024_01_04", "date": "January 4, 2024", "pos": 8, "streams": 195573, "streamschange": "+41838", "streamspercent": "+27.2%" },{ "weekname":"2024_01_11", "date": "January 11, 2024", "pos": 9, "streams": 191519, "streamschange": "-4054", "streamspercent": "-2.1%" },{ "weekname":"2024_01_18", "date": "January 18, 2024", "pos": 10, "streams": 189251, "streamschange": "-2268", "streamspercent": "-1.2%" },{ "weekname":"2024_01_25", "date": "January 25, 2024", "pos": 21, "streams": 172442, "streamschange": "-16809", "streamspercent": "-8.9%" },{ "weekname":"2024_02_01", "date": "February 1, 2024", "pos": 24, "streams": 173789, "streamschange": "+1347", "streamspercent": "+0.8%" },{ "weekname":"2024_02_08", "date": "February 8, 2024", "pos": 10, "streams": 229837, "streamschange": "+56048", "streamspercent": "+32.3%" },{ "weekname":"2024_02_15", "date": "February 15, 2024", "pos": 9, "streams": 198428, "streamschange": "-31409", "streamspercent": "-13.7%" },{ "weekname":"2024_02_22", "date": "February 22, 2024", "pos": 9, "streams": 214944, "streamschange": "+16516", "streamspercent": "+8.3%" },{ "weekname":"2024_02_29", "date": "February 29, 2024", "pos": 9, "streams": 222652, "streamschange": "+7708", "streamspercent": "+3.6%" },{ "weekname":"2024_03_07", "date": "March 7, 2024", "pos": 40, "streams": 205920, "streamschange": "-16732", "streamspercent": "-7.5%" },{ "weekname":"2024_03_14", "date": "March 14, 2024", "pos": 28, "streams": 203586, "streamschange": "-2334", "streamspercent": "-1.1%" },{ "weekname":"2024_03_21", "date": "March 21, 2024", "pos": 13, "streams": 196957, "streamschange": "-6629", "streamspercent": "-3.3%" },{ "weekname":"2024_03_28", "date": "March 28, 2024", "pos": 20, "streams": 159993, "streamschange": "-36964", "streamspercent": "-18.8%" },{ "weekname":"2024_04_04", "date": "April 4, 2024", "pos": 14, "streams": 200193, "streamschange": "+40200", "streamspercent": "+25.1%" },{ "weekname":"2024_04_11", "date": "April 11, 2024", "pos": 23, "streams": 186210, "streamschange": "-13983", "streamspercent": "-7.0%" },{ "weekname":"2024_04_18", "date": "April 18, 2024", "pos": 15, "streams": 212620, "streamschange": "+26410", "streamspercent": "+14.2%" },{ "weekname":"2024_04_25", "date": "April 25, 2024", "pos": 33, "streams": 194914, "streamschange": "-17706", "streamspercent": "-8.3%" },{ "weekname":"2024_05_02", "date": "May 2, 2024", "pos": 30, "streams": 177337, "streamschange": "-17577", "streamspercent": "-9.0%" },{ "weekname":"2024_05_09", "date": "May 9, 2024", "pos": 40, "streams": 139756, "streamschange": "-37581", "streamspercent": "-21.2%" },{ "weekname":"2024_05_16", "date": "May 16, 2024", "pos": 64, "streams": 107812, "streamschange": "-31944", "streamspercent": "-22.9%" },{ "weekname":"2024_05_23", "date": "May 23, 2024", "pos": 64, "streams": 102710, "streamschange": "-5102", "streamspercent": "-4.7%" },{ "weekname":"2024_05_30", "date": "May 30, 2024", "pos": 53, "streams": 106640, "streamschange": "+3930", "streamspercent": "+3.8%" },{ "weekname":"2024_06_06", "date": "June 6, 2024", "pos": 63, "streams": 101239, "streamschange": "-5401", "streamspercent": "-5.1%" },{ "weekname":"2024_06_13", "date": "June 13, 2024", "pos": 38, "streams": 135386, "streamschange": "+34147", "streamspercent": "+33.7%" },{ "weekname":"2024_06_20", "date": "June 20, 2024", "pos": 76, "streams": 85317, "streamschange": "-50069", "streamspercent": "-37.0%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Jung Kook, Jack Harlow - 3D",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e0299583bb32b47e87d55c6064b",
+                                                "peak_pos": "2",
+                                                "peak_streams": "529348"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

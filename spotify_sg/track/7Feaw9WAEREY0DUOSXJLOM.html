@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e02d7658a5bf66a2f3f11878bdf" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Summer Days</h1>
+                                        <span class="line1"><a href="../artist/60d24wfXkVzDSfLS6hyCjZ.html">Martin Garrix, </a><a href="../artist/3JhNCzhSMTxs9WLGJJxWOY.html">Macklemore, </a><a href="../artist/4UXqAaa6dQYAk18Lv7PEgX.html">Fall Out Boy</a></span><br>
+                                        <span class="line1">2019&nbsp&nbsp●&nbsp&nbsp2:43</span><br>
+                                        <span class="line1">Peak: 19&nbsp&nbsp●&nbsp&nbsp153,592 streams</span><br>
+                                        <div>
+                                            <span class="line1">11 Weeks in Top 50&nbsp&nbsp●&nbsp&nbsp16 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">19 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2019_05_02", "date": "May 2, 2019", "pos": 164, "streams": 48643, "streamschange": "", "streamspercent": "" },{ "weekname":"2019_05_09", "date": "May 9, 2019", "pos": 85, "streams": 72903, "streamschange": "+24260", "streamspercent": "+49.9%" },{ "weekname":"2019_05_16", "date": "May 16, 2019", "pos": 52, "streams": 91560, "streamschange": "+18657", "streamspercent": "+25.6%" },{ "weekname":"2019_05_23", "date": "May 23, 2019", "pos": 43, "streams": 100268, "streamschange": "+8708", "streamspercent": "+9.5%" },{ "weekname":"2019_05_30", "date": "May 30, 2019", "pos": 24, "streams": 146628, "streamschange": "+46360", "streamspercent": "+46.2%" },{ "weekname":"2019_06_06", "date": "June 6, 2019", "pos": 20, "streams": 148734, "streamschange": "+2106", "streamspercent": "+1.4%" },{ "weekname":"2019_06_13", "date": "June 13, 2019", "pos": 21, "streams": 151346, "streamschange": "+2612", "streamspercent": "+1.8%" },{ "weekname":"2019_06_20", "date": "June 20, 2019", "pos": 19, "streams": 146840, "streamschange": "-4506", "streamspercent": "-3.0%" },{ "weekname":"2019_06_27", "date": "June 27, 2019", "pos": 21, "streams": 153592, "streamschange": "+6752", "streamspercent": "+4.6%" },{ "weekname":"2019_07_04", "date": "July 4, 2019", "pos": 25, "streams": 149123, "streamschange": "-4469", "streamspercent": "-2.9%" },{ "weekname":"2019_07_11", "date": "July 11, 2019", "pos": 32, "streams": 135857, "streamschange": "-13266", "streamspercent": "-8.9%" },{ "weekname":"2019_07_18", "date": "July 18, 2019", "pos": 33, "streams": 123081, "streamschange": "-12776", "streamspercent": "-9.4%" },{ "weekname":"2019_07_25", "date": "July 25, 2019", "pos": 39, "streams": 112587, "streamschange": "-10494", "streamspercent": "-8.5%" },{ "weekname":"2019_08_01", "date": "August 1, 2019", "pos": 41, "streams": 106935, "streamschange": "-5652", "streamspercent": "-5.0%" },{ "weekname":"2019_08_08", "date": "August 8, 2019", "pos": 53, "streams": 94413, "streamschange": "-12522", "streamspercent": "-11.7%" },{ "weekname":"2019_08_15", "date": "August 15, 2019", "pos": 62, "streams": 79415, "streamschange": "-14998", "streamspercent": "-15.9%" },{ "weekname":"2019_08_22", "date": "August 22, 2019", "pos": 70, "streams": 79817, "streamschange": "+402", "streamspercent": "+0.5%" },{ "weekname":"2019_08_29", "date": "August 29, 2019", "pos": 115, "streams": 64419, "streamschange": "-15398", "streamspercent": "-19.3%" },{ "weekname":"2019_09_05", "date": "September 5, 2019", "pos": 150, "streams": 55458, "streamschange": "-8961", "streamspercent": "-13.9%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Martin Garrix, Macklemore, Fall Out Boy - Summer Days",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e02d7658a5bf66a2f3f11878bdf",
+                                                "peak_pos": "19",
+                                                "peak_streams": "153592"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/ab67616d00001e02744ea41a7c1ae57024752db9" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Set Fire to the Rain</h1>
+                                        <span class="line1"><a href="../artist/4dpARuHxo51G3z768sgnrY.html">Adele</a></span><br>
+                                        <span class="line1">2011&nbsp&nbsp●&nbsp&nbsp4:02</span><br>
+                                        <span class="line1">Peak: 92&nbsp&nbsp●&nbsp&nbsp67,841 streams</span><br>
+                                        <div>
+                                            <span class="line1">1 Week in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">30 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2015_03_22", "date": "March 22, 2015", "pos": 242, "streams": 1119, "streamschange": "", "streamspercent": "" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2015_10_29", "date": "October 29, 2015", "pos": 159, "streams": 14401, "streamschange": "", "streamspercent": "" },{ "weekname":"2015_11_05", "date": "November 5, 2015", "pos": 170, "streams": 13761, "streamschange": "-640", "streamspercent": "-4.4%" },{ "weekname":"2015_11_12", "date": "November 12, 2015", "pos": 180, "streams": 12809, "streamschange": "-952", "streamspercent": "-6.9%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2015_11_26", "date": "November 26, 2015", "pos": 159, "streams": 15086, "streamschange": "", "streamspercent": "" },{ "weekname":"2015_12_03", "date": "December 3, 2015", "pos": 170, "streams": 13601, "streamschange": "-1485", "streamspercent": "-9.8%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2021_10_21", "date": "October 21, 2021", "pos": 92, "streams": 54815, "streamschange": "", "streamspercent": "" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2023_04_13", "date": "April 13, 2023", "pos": 140, "streams": 53162, "streamschange": "", "streamspercent": "" },{ "weekname":"2023_04_20", "date": "April 20, 2023", "pos": 130, "streams": 58235, "streamschange": "+5073", "streamspercent": "+9.5%" },{ "weekname":"2023_04_27", "date": "April 27, 2023", "pos": 146, "streams": 57398, "streamschange": "-837", "streamspercent": "-1.4%" },{ "weekname":"2023_05_04", "date": "May 4, 2023", "pos": 116, "streams": 61023, "streamschange": "+3625", "streamspercent": "+6.3%" },{ "weekname":"2023_05_11", "date": "May 11, 2023", "pos": 126, "streams": 60684, "streamschange": "-339", "streamspercent": "-0.6%" },{ "weekname":"2023_05_18", "date": "May 18, 2023", "pos": 131, "streams": 64470, "streamschange": "+3786", "streamspercent": "+6.2%" },{ "weekname":"2023_05_25", "date": "May 25, 2023", "pos": 112, "streams": 67841, "streamschange": "+3371", "streamspercent": "+5.2%" },{ "weekname":"2023_06_01", "date": "June 1, 2023", "pos": 142, "streams": 60489, "streamschange": "-7352", "streamspercent": "-10.8%" },{ "weekname":"2023_06_08", "date": "June 8, 2023", "pos": 140, "streams": 57947, "streamschange": "-2542", "streamspercent": "-4.2%" },{ "weekname":"2023_06_15", "date": "June 15, 2023", "pos": 152, "streams": 56043, "streamschange": "-1904", "streamspercent": "-3.3%" },{ "weekname":"2023_06_22", "date": "June 22, 2023", "pos": 163, "streams": 56314, "streamschange": "+271", "streamspercent": "+0.5%" },{ "weekname":"2023_06_29", "date": "June 29, 2023", "pos": 187, "streams": 54658, "streamschange": "-1656", "streamspercent": "-2.9%" },{ "weekname":"2023_07_06", "date": "July 6, 2023", "pos": 162, "streams": 60669, "streamschange": "+6011", "streamspercent": "+11.0%" },{ "weekname":"2023_07_13", "date": "July 13, 2023", "pos": 179, "streams": 62663, "streamschange": "+1994", "streamspercent": "+3.3%" },{ "weekname":"2023_07_20", "date": "July 20, 2023", "pos": 168, "streams": 61417, "streamschange": "-1246", "streamspercent": "-2.0%" },{ "weekname":"2023_07_27", "date": "July 27, 2023", "pos": 190, "streams": 55187, "streamschange": "-6230", "streamspercent": "-10.1%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2023_08_10", "date": "August 10, 2023", "pos": 200, "streams": 52946, "streamschange": "", "streamspercent": "" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2023_08_24", "date": "August 24, 2023", "pos": 197, "streams": 53258, "streamschange": "", "streamspercent": "" },{ "weekname":"2023_08_31", "date": "August 31, 2023", "pos": 193, "streams": 52776, "streamschange": "-482", "streamspercent": "-0.9%" },{ "weekname":"2023_09_07", "date": "September 7, 2023", "pos": 196, "streams": 51638, "streamschange": "-1138", "streamspercent": "-2.2%" },{ "weekname":"2023_09_14", "date": "September 14, 2023", "pos": 185, "streams": 55385, "streamschange": "+3747", "streamspercent": "+7.3%" },{ "weekname":"2023_09_21", "date": "September 21, 2023", "pos": 174, "streams": 55999, "streamschange": "+614", "streamspercent": "+1.1%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"2024_02_15", "date": "February 15, 2024", "pos": 195, "streams": 49386, "streamschange": "", "streamspercent": "" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Adele - Set Fire to the Rain",
+                                                "image_url": "https://i.scdn.co/image/ab67616d00001e02744ea41a7c1ae57024752db9",
+                                                "peak_pos": "92",
+                                                "peak_streams": "67841"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>
