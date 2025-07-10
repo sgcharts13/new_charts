@@ -1,0 +1,101 @@
+/* Reset default styles */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #111;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #111;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Chart List Layout */
+.chart-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Chart Item Styling */
+.chart-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1rem;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.chart-item:hover {
+  transform: translateY(-2px);
+}
+
+/* Chart Position Number */
+.position {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111;
+  width: 60px;
+  text-align: center;
+}
+
+/* Track Info */
+.track-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.track-info img {
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.track-info strong {
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.track-info div {
+  line-height: 1.4;
+}
+
+/* Streams and Change */
+.streams, .change {
+  font-size: 0.9rem;
+  color: #444;
+  min-width: 100px;
+  text-align: right;
+}
