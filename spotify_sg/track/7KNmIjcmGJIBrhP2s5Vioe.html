@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Spotify Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://i.scdn.co/image/" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Born Again</h1>
+                                        <span class="line1"><a href="../artist/5L1lO4eRHmJ7a0Q6csE5cT.html">LISA, </a><a href="../artist/5cj0lLjcoR7YOSnhnX0Po5.html">Doja Cat, </a><a href="../artist/5KKpBU5eC2tJDzf0wmlRp2.html">RAYE</a></span><br>
+                                        <span class="line1">2025&nbsp&nbsp●&nbsp&nbsp3:51</span><br>
+                                        <span class="line1">Peak: 11&nbsp&nbsp●&nbsp&nbsp293,592 streams</span><br>
+                                        <div>
+                                            <span class="line1">7 Weeks in Top 50&nbsp&nbsp●&nbsp&nbsp11 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">13 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <ul class="actions fit">
+                                        <li><a href="https://open.spotify.com/track/7KNmIjcmGJIBrhP2s5Vioe" class="button fit">View on Spotify</a></li>
+                                    </ul>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"2025_02_13", "date": "February 13, 2025", "pos": 11, "streams": 293592, "streamschange": "", "streamspercent": "" },{ "weekname":"2025_02_20", "date": "February 20, 2025", "pos": 17, "streams": 221670, "streamschange": "-71922", "streamspercent": "-24.5%" },{ "weekname":"2025_02_27", "date": "February 27, 2025", "pos": 19, "streams": 196831, "streamschange": "-24839", "streamspercent": "-11.2%" },{ "weekname":"2025_03_06", "date": "March 6, 2025", "pos": 16, "streams": 188401, "streamschange": "-8430", "streamspercent": "-4.3%" },{ "weekname":"2025_03_13", "date": "March 13, 2025", "pos": 36, "streams": 137662, "streamschange": "-50739", "streamspercent": "-26.9%" },{ "weekname":"2025_03_20", "date": "March 20, 2025", "pos": 39, "streams": 128583, "streamschange": "-9079", "streamspercent": "-6.6%" },{ "weekname":"2025_03_27", "date": "March 27, 2025", "pos": 43, "streams": 113171, "streamschange": "-15412", "streamspercent": "-12.0%" },{ "weekname":"2025_04_03", "date": "April 3, 2025", "pos": 72, "streams": 82192, "streamschange": "-30979", "streamspercent": "-27.4%" },{ "weekname":"2025_04_10", "date": "April 10, 2025", "pos": 80, "streams": 81391, "streamschange": "-801", "streamspercent": "-1.0%" },{ "weekname":"2025_04_17", "date": "April 17, 2025", "pos": 81, "streams": 78544, "streamschange": "-2847", "streamspercent": "-3.5%" },{ "weekname":"2025_04_24", "date": "April 24, 2025", "pos": 85, "streams": 74901, "streamschange": "-3643", "streamspercent": "-4.6%" },{ "weekname":"2025_05_01", "date": "May 1, 2025", "pos": 133, "streams": 61828, "streamschange": "-13073", "streamspercent": "-17.5%" },{ "weekname":"2025_05_08", "date": "May 8, 2025", "pos": 153, "streams": 58808, "streamschange": "-3020", "streamspercent": "-4.9%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "LISA, Doja Cat, RAYE - Born Again",
+                                                "image_url": "https://i.scdn.co/image/",
+                                                "peak_pos": "11",
+                                                "peak_streams": "293592"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>
