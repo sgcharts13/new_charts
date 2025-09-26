@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>YouTube Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../youtube_sg/main.html">YouTube Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://lh3.googleusercontent.com/GAA4PrunFBY2VAy7mzFaft8Ggx7-mnpcT9Yok0TF6tBfLX1TNg9a1VOyu0Np40vUJoyKSRLyjGOdQd7N=w180-h180-l90-rj" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Waka Waka (This Time for Africa) (feat. Freshlyground)</h1>
+                                        <span class="line1"><a href="../artist//m/01wj18h.html">Shakira</a></span><br>
+                                        <span class="line1">Peak: 58&nbsp&nbsp●&nbsp&nbsp30,508 views</span><br>
+                                        <div>
+                                            <span class="line1">55 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">108 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <ul class="actions fit">
+                                        <li><a href="https://www.youtube.com/watch?v=G:FH-6Wcm6u0k" class="button fit">Watch on YouTube</a></li>
+                                    </ul>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"20230825", "date": "August 25, 2023", "pos": 73, "streams": 20566, "streamschange": "", "streamspercent": "" },{ "weekname":"20230901", "date": "September 1, 2023", "pos": 75, "streams": 26384, "streamschange": "+5818", "streamspercent": "+28.3%" },{ "weekname":"20230908", "date": "September 8, 2023", "pos": 93, "streams": 24019, "streamschange": "-2365", "streamspercent": "-9.0%" },{ "weekname":"20230915", "date": "September 15, 2023", "pos": 82, "streams": 24136, "streamschange": "+117", "streamspercent": "+0.5%" },{ "weekname":"20230922", "date": "September 22, 2023", "pos": 91, "streams": 22973, "streamschange": "-1163", "streamspercent": "-4.8%" },{ "weekname":"", "date": "", "pos": "", "streams": "", "streamschange": "", "streamspercent": "" },{ "weekname":"20231006", "date": "October 6, 2023", "pos": 91, "streams": 24328, "streamschange": "", "streamspercent": "" },{ "weekname":"20231013", "date": "October 13, 2023", "pos": 103, "streams": 22801, "streamschange": "-1527", "streamspercent": "-6.3%" },{ "weekname":"20231020", "date": "October 20, 2023", "pos": 98, "streams": 23631, "streamschange": "+830", "streamspercent": "+3.6%" },{ "weekname":"20231027", "date": "October 27, 2023", "pos": 95, "streams": 22723, "streamschange": "-908", "streamspercent": "-3.8%" },{ "weekname":"20231103", "date": "November 3, 2023", "pos": 101, "streams": 23634, "streamschange": "+911", "streamspercent": "+4.0%" },{ "weekname":"20231110", "date": "November 10, 2023", "pos": 94, "streams": 23275, "streamschange": "-359", "streamspercent": "-1.5%" },{ "weekname":"20231117", "date": "November 17, 2023", "pos": 94, "streams": 23223, "streamschange": "-52", "streamspercent": "-0.2%" },{ "weekname":"20231124", "date": "November 24, 2023", "pos": 100, "streams": 22811, "streamschange": "-412", "streamspercent": "-1.8%" },{ "weekname":"20231201", "date": "December 1, 2023", "pos": 98, "streams": 22430, "streamschange": "-381", "streamspercent": "-1.7%" },{ "weekname":"20231208", "date": "December 8, 2023", "pos": 120, "streams": 20474, "streamschange": "-1956", "streamspercent": "-8.7%" },{ "weekname":"20231215", "date": "December 15, 2023", "pos": 126, "streams": 19223, "streamschange": "-1251", "streamspercent": "-6.1%" },{ "weekname":"20231222", "date": "December 22, 2023", "pos": 117, "streams": 19315, "streamschange": "+92", "streamspercent": "+0.5%" },{ "weekname":"20231229", "date": "December 29, 2023", "pos": 123, "streams": 18965, "streamschange": "-350", "streamspercent": "-1.8%" },{ "weekname":"20240105", "date": "January 5, 2024", "pos": 102, "streams": 20803, "streamschange": "+1838", "streamspercent": "+9.7%" },{ "weekname":"20240112", "date": "January 12, 2024", "pos": 147, "streams": 19420, "streamschange": "-1383", "streamspercent": "-6.6%" },{ "weekname":"20240119", "date": "January 19, 2024", "pos": 150, "streams": 19524, "streamschange": "+104", "streamspercent": "+0.5%" },{ "weekname":"20240126", "date": "January 26, 2024", "pos": 153, "streams": 20114, "streamschange": "+590", "streamspercent": "+3.0%" },{ "weekname":"20240202", "date": "February 2, 2024", "pos": 187, "streams": 18654, "streamschange": "-1460", "streamspercent": "-7.3%" },{ "weekname":"20240209", "date": "February 9, 2024", "pos": 154, "streams": 19392, "streamschange": "+738", "streamspercent": "+4.0%" },{ "weekname":"20240216", "date": "February 16, 2024", "pos": 122, "streams": 19017, "streamschange": "-375", "streamspercent": "-1.9%" },{ "weekname":"20240223", "date": "February 23, 2024", "pos": 156, "streams": 18675, "streamschange": "-342", "streamspercent": "-1.8%" },{ "weekname":"20240301", "date": "March 1, 2024", "pos": 146, "streams": 18602, "streamschange": "-73", "streamspercent": "-0.4%" },{ "weekname":"20240308", "date": "March 8, 2024", "pos": 125, "streams": 19800, "streamschange": "+1198", "streamspercent": "+6.4%" },{ "weekname":"20240315", "date": "March 15, 2024", "pos": 139, "streams": 19084, "streamschange": "-716", "streamspercent": "-3.6%" },{ "weekname":"20240322", "date": "March 22, 2024", "pos": 155, "streams": 17270, "streamschange": "-1814", "streamspercent": "-9.5%" },{ "weekname":"20240329", "date": "March 29, 2024", "pos": 137, "streams": 18654, "streamschange": "+1384", "streamspercent": "+8.0%" },{ "weekname":"20240405", "date": "April 5, 2024", "pos": 144, "streams": 18318, "streamschange": "-336", "streamspercent": "-1.8%" },{ "weekname":"20240412", "date": "April 12, 2024", "pos": 136, "streams": 19062, "streamschange": "+744", "streamspercent": "+4.1%" },{ "weekname":"20240419", "date": "April 19, 2024", "pos": 144, "streams": 18591, "streamschange": "-471", "streamspercent": "-2.5%" },{ "weekname":"20240426", "date": "April 26, 2024", "pos": 140, "streams": 19986, "streamschange": "+1395", "streamspercent": "+7.5%" },{ "weekname":"20240503", "date": "May 3, 2024", "pos": 125, "streams": 20513, "streamschange": "+527", "streamspercent": "+2.6%" },{ "weekname":"20240510", "date": "May 10, 2024", "pos": 134, "streams": 19716, "streamschange": "-797", "streamspercent": "-3.9%" },{ "weekname":"20240517", "date": "May 17, 2024", "pos": 132, "streams": 19551, "streamschange": "-165", "streamspercent": "-0.8%" },{ "weekname":"20240524", "date": "May 24, 2024", "pos": 109, "streams": 21641, "streamschange": "+2090", "streamspercent": "+10.7%" },{ "weekname":"20240531", "date": "May 31, 2024", "pos": 94, "streams": 23076, "streamschange": "+1435", "streamspercent": "+6.6%" },{ "weekname":"20240607", "date": "June 7, 2024", "pos": 102, "streams": 21919, "streamschange": "-1157", "streamspercent": "-5.0%" },{ "weekname":"20240614", "date": "June 14, 2024", "pos": 111, "streams": 21341, "streamschange": "-578", "streamspercent": "-2.6%" },{ "weekname":"20240621", "date": "June 21, 2024", "pos": 94, "streams": 21556, "streamschange": "+215", "streamspercent": "+1.0%" },{ "weekname":"20240628", "date": "June 28, 2024", "pos": 98, "streams": 22413, "streamschange": "+857", "streamspercent": "+4.0%" },{ "weekname":"20240705", "date": "July 5, 2024", "pos": 103, "streams": 23416, "streamschange": "+1003", "streamspercent": "+4.5%" },{ "weekname":"20240712", "date": "July 12, 2024", "pos": 100, "streams": 23116, "streamschange": "-300", "streamspercent": "-1.3%" },{ "weekname":"20240719", "date": "July 19, 2024", "pos": 81, "streams": 25288, "streamschange": "+2172", "streamspercent": "+9.4%" },{ "weekname":"20240726", "date": "July 26, 2024", "pos": 88, "streams": 24412, "streamschange": "-876", "streamspercent": "-3.5%" },{ "weekname":"20240802", "date": "August 2, 2024", "pos": 82, "streams": 26349, "streamschange": "+1937", "streamspercent": "+7.9%" },{ "weekname":"20240809", "date": "August 9, 2024", "pos": 87, "streams": 25213, "streamschange": "-1136", "streamspercent": "-4.3%" },{ "weekname":"20240816", "date": "August 16, 2024", "pos": 90, "streams": 23391, "streamschange": "-1822", "streamspercent": "-7.2%" },{ "weekname":"20240823", "date": "August 23, 2024", "pos": 89, "streams": 23408, "streamschange": "+17", "streamspercent": "+0.1%" },{ "weekname":"20240830", "date": "August 30, 2024", "pos": 87, "streams": 24595, "streamschange": "+1187", "streamspercent": "+5.1%" },{ "weekname":"20240906", "date": "September 6, 2024", "pos": 94, "streams": 23877, "streamschange": "-718", "streamspercent": "-2.9%" },{ "weekname":"20240913", "date": "September 13, 2024", "pos": 90, "streams": 23732, "streamschange": "-145", "streamspercent": "-0.6%" },{ "weekname":"20240920", "date": "September 20, 2024", "pos": 91, "streams": 24216, "streamschange": "+484", "streamspercent": "+2.0%" },{ "weekname":"20240927", "date": "September 27, 2024", "pos": 89, "streams": 25223, "streamschange": "+1007", "streamspercent": "+4.2%" },{ "weekname":"20241004", "date": "October 4, 2024", "pos": 74, "streams": 27446, "streamschange": "+2223", "streamspercent": "+8.8%" },{ "weekname":"20241011", "date": "October 11, 2024", "pos": 82, "streams": 27050, "streamschange": "-396", "streamspercent": "-1.4%" },{ "weekname":"20241018", "date": "October 18, 2024", "pos": 78, "streams": 28433, "streamschange": "+1383", "streamspercent": "+5.1%" },{ "weekname":"20241025", "date": "October 25, 2024", "pos": 79, "streams": 27701, "streamschange": "-732", "streamspercent": "-2.6%" },{ "weekname":"20241101", "date": "November 1, 2024", "pos": 82, "streams": 30508, "streamschange": "+2807", "streamspercent": "+10.1%" },{ "weekname":"20241108", "date": "November 8, 2024", "pos": 76, "streams": 29015, "streamschange": "-1493", "streamspercent": "-4.9%" },{ "weekname":"20241115", "date": "November 15, 2024", "pos": 62, "streams": 30007, "streamschange": "+992", "streamspercent": "+3.4%" },{ "weekname":"20241122", "date": "November 22, 2024", "pos": 76, "streams": 27607, "streamschange": "-2400", "streamspercent": "-8.0%" },{ "weekname":"20241129", "date": "November 29, 2024", "pos": 65, "streams": 28140, "streamschange": "+533", "streamspercent": "+1.9%" },{ "weekname":"20241206", "date": "December 6, 2024", "pos": 70, "streams": 26787, "streamschange": "-1353", "streamspercent": "-4.8%" },{ "weekname":"20241213", "date": "December 13, 2024", "pos": 84, "streams": 24162, "streamschange": "-2625", "streamspercent": "-9.8%" },{ "weekname":"20241220", "date": "December 20, 2024", "pos": 82, "streams": 23214, "streamschange": "-948", "streamspercent": "-3.9%" },{ "weekname":"20241227", "date": "December 27, 2024", "pos": 80, "streams": 23771, "streamschange": "+557", "streamspercent": "+2.4%" },{ "weekname":"20250103", "date": "January 3, 2025", "pos": 68, "streams": 24666, "streamschange": "+895", "streamspercent": "+3.8%" },{ "weekname":"20250110", "date": "January 10, 2025", "pos": 90, "streams": 23528, "streamschange": "-1138", "streamspercent": "-4.6%" },{ "weekname":"20250117", "date": "January 17, 2025", "pos": 103, "streams": 23006, "streamschange": "-522", "streamspercent": "-2.2%" },{ "weekname":"20250124", "date": "January 24, 2025", "pos": 118, "streams": 21587, "streamschange": "-1419", "streamspercent": "-6.2%" },{ "weekname":"20250131", "date": "January 31, 2025", "pos": 100, "streams": 21846, "streamschange": "+259", "streamspercent": "+1.2%" },{ "weekname":"20250207", "date": "February 7, 2025", "pos": 133, "streams": 19550, "streamschange": "-2296", "streamspercent": "-10.5%" },{ "weekname":"20250214", "date": "February 14, 2025", "pos": 126, "streams": 20763, "streamschange": "+1213", "streamspercent": "+6.2%" },{ "weekname":"20250221", "date": "February 21, 2025", "pos": 102, "streams": 22761, "streamschange": "+1998", "streamspercent": "+9.6%" },{ "weekname":"20250228", "date": "February 28, 2025", "pos": 121, "streams": 21362, "streamschange": "-1399", "streamspercent": "-6.1%" },{ "weekname":"20250307", "date": "March 7, 2025", "pos": 143, "streams": 19680, "streamschange": "-1682", "streamspercent": "-7.9%" },{ "weekname":"20250314", "date": "March 14, 2025", "pos": 148, "streams": 19940, "streamschange": "+260", "streamspercent": "+1.3%" },{ "weekname":"20250321", "date": "March 21, 2025", "pos": 132, "streams": 20897, "streamschange": "+957", "streamspercent": "+4.8%" },{ "weekname":"20250328", "date": "March 28, 2025", "pos": 166, "streams": 18526, "streamschange": "-2371", "streamspercent": "-11.3%" },{ "weekname":"20250404", "date": "April 4, 2025", "pos": 174, "streams": 18779, "streamschange": "+253", "streamspercent": "+1.4%" },{ "weekname":"20250411", "date": "April 11, 2025", "pos": 167, "streams": 18282, "streamschange": "-497", "streamspercent": "-2.6%" },{ "weekname":"20250418", "date": "April 18, 2025", "pos": 124, "streams": 20068, "streamschange": "+1786", "streamspercent": "+9.8%" },{ "weekname":"20250425", "date": "April 25, 2025", "pos": 144, "streams": 18212, "streamschange": "-1856", "streamspercent": "-9.2%" },{ "weekname":"20250502", "date": "May 2, 2025", "pos": 115, "streams": 20395, "streamschange": "+2183", "streamspercent": "+12.0%" },{ "weekname":"20250509", "date": "May 9, 2025", "pos": 134, "streams": 18362, "streamschange": "-2033", "streamspercent": "-10.0%" },{ "weekname":"20250516", "date": "May 16, 2025", "pos": 95, "streams": 20609, "streamschange": "+2247", "streamspercent": "+12.2%" },{ "weekname":"20250523", "date": "May 23, 2025", "pos": 96, "streams": 22079, "streamschange": "+1470", "streamspercent": "+7.1%" },{ "weekname":"20250530", "date": "May 30, 2025", "pos": 86, "streams": 23657, "streamschange": "+1578", "streamspercent": "+7.1%" },{ "weekname":"20250606", "date": "June 6, 2025", "pos": 84, "streams": 24074, "streamschange": "+417", "streamspercent": "+1.8%" },{ "weekname":"20250613", "date": "June 13, 2025", "pos": 64, "streams": 27443, "streamschange": "+3369", "streamspercent": "+14.0%" },{ "weekname":"20250620", "date": "June 20, 2025", "pos": 58, "streams": 27448, "streamschange": "+5", "streamspercent": "+0.0%" },{ "weekname":"20250627", "date": "June 27, 2025", "pos": 59, "streams": 27864, "streamschange": "+416", "streamspercent": "+1.5%" },{ "weekname":"20250704", "date": "July 4, 2025", "pos": 71, "streams": 26938, "streamschange": "-926", "streamspercent": "-3.3%" },{ "weekname":"20250711", "date": "July 11, 2025", "pos": 78, "streams": 26225, "streamschange": "-713", "streamspercent": "-2.6%" },{ "weekname":"20250718", "date": "July 18, 2025", "pos": 93, "streams": 25087, "streamschange": "-1138", "streamspercent": "-4.3%" },{ "weekname":"20250725", "date": "July 25, 2025", "pos": 92, "streams": 25699, "streamschange": "+612", "streamspercent": "+2.4%" },{ "weekname":"20250801", "date": "August 1, 2025", "pos": 89, "streams": 25437, "streamschange": "-262", "streamspercent": "-1.0%" },{ "weekname":"20250808", "date": "August 8, 2025", "pos": 103, "streams": 22940, "streamschange": "-2497", "streamspercent": "-9.8%" },{ "weekname":"20250815", "date": "August 15, 2025", "pos": 124, "streams": 21241, "streamschange": "-1699", "streamspercent": "-7.4%" },{ "weekname":"20250822", "date": "August 22, 2025", "pos": 129, "streams": 20664, "streamschange": "-577", "streamspercent": "-2.7%" },{ "weekname":"20250829", "date": "August 29, 2025", "pos": 129, "streams": 20873, "streamschange": "+209", "streamspercent": "+1.0%" },{ "weekname":"20250905", "date": "September 5, 2025", "pos": 120, "streams": 20712, "streamschange": "-161", "streamspercent": "-0.8%" },{ "weekname":"20250912", "date": "September 12, 2025", "pos": 149, "streams": 18893, "streamschange": "-1819", "streamspercent": "-8.8%" },{ "weekname":"20250919", "date": "September 19, 2025", "pos": 143, "streams": 18599, "streamschange": "-294", "streamspercent": "-1.6%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Shakira - Waka Waka (This Time for Africa) (feat. Freshlyground)",
+                                                "image_url": "https://lh3.googleusercontent.com/GAA4PrunFBY2VAy7mzFaft8Ggx7-mnpcT9Yok0TF6tBfLX1TNg9a1VOyu0Np40vUJoyKSRLyjGOdQd7N=w180-h180-l90-rj",
+                                                "peak_pos": "58",
+                                                "peak_streams": "30508"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>

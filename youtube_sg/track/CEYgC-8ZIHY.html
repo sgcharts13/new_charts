@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+    <!--
+        Phantom by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>YouTube Singapore Charts - sgcharts13</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="../../assets/css/track_main.css" />
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+        </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ72PWRCWX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PQ72PWRCWX');
+        </script>
+        <body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper">
+
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="inner">
+
+                                <!-- Logo -->
+                                    <a href="../../main.html" class="logo">
+                                        <span class="symbol"><img src="../../images/logo.png" alt="" /></span><span class="title">SG CHARTS</span>
+                                    </a>
+
+                                <!-- Nav -->
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#menu">Menu</a></li>
+                                        </ul>
+                                    </nav>
+
+                            </div>
+                        </header>
+
+                    <!-- Menu -->
+                        <nav id="menu">
+                            <h2>Menu</h2>
+                            <ul>
+                                <li><a href="../../main.html">Home</a></li>
+                                <li><a href="../../spotify_sg/main.html">Spotify Singapore Charts</a></li>
+                                <li><a href="../../youtube_sg/main.html">YouTube Singapore Charts</a></li>
+                                <li><a href="../../spotify_asia/main.html">Spotify Asia Charts</a></li>
+                                <li><a href="../../movie/main.html">Singapore Movie Charts</a></li>
+                                <li><a href="../../train/main.html">Singapore Train Ridership</a></li>
+                                <li><a href="../../rias/main.html">RIAS Singapore Streaming Charts</a></li>
+                                <li><a href="../../book/main.html">Singapore Book Bestseller Charts</a></li>
+                            </ul>
+                        </nav>
+
+                    <!-- Main -->
+                        <div id="main">
+                            <div class="inner">
+                                <header>
+                                    <p style="text-align: left; font-weight: bold;"><a href="../main.html">< Back to Main Page</a></p>
+                                    <p style="vertical-align: middle;">
+                                        <span class="image right">
+                                            <img src="https://lh3.googleusercontent.com/S7cdwX1SBolWxZFnCpIElfslVFPvZ2d3R4OkufDxEXvoqf9lCARbnMXTOuFdDb-hvoYvwnueNWzwdSVA=w180-h180-l90-rj" alt="" />
+                                        </span>
+                                        <h1 style="padding: 0.25em 0;">Sekecewa Itu</h1>
+                                        <span class="line1"><a href="../artist//g/11gmwd573x.html">Angga Candra</a></span><br>
+                                        <span class="line1">Peak: 49&nbsp&nbsp●&nbsp&nbsp30,601 views</span><br>
+                                        <div>
+                                            <span class="line1">1 Week in Top 50&nbsp&nbsp●&nbsp&nbsp7 Weeks in Top 100&nbsp&nbsp●&nbsp&nbsp</span>
+                                        </div><span class="line1">14 Weeks On Chart</span><br></p>
+                                </header>
+                                <body>
+                                    <ul class="actions fit">
+                                        <li><a href="https://www.youtube.com/watch?v=G:CEYgC-8ZIHY" class="button fit">Watch on YouTube</a></li>
+                                    </ul>
+                                    <div>
+                                        <!-- Buttons to show table and graph -->
+                                        <ul class="actions fit">
+                                            <li class="button-container"><button id="button1" onclick="showTable()">Show Table</button></li>
+                                            <li class="button-container"><button id="button2" onclick="showGraph()">Show Graph</button></li>
+                                        </ul>
+                                        <!-- Placeholder for table -->
+                                        <div class="table-wrapper" id="tableContainer" style="display: none;">
+                                            <a id="chart"></a>
+                                            <table id="dataTable" border="1">
+                                                <!-- Table will be populated dynamically -->
+                                            </table>
+                                        </div>
+
+                                        <!-- Placeholder for graph -->
+                                        <div id="graphContainer" style="display: none;">
+                                            <div id="graph"></div>
+                                        </div>
+
+                                        <!-- Storing data as a JSON object -->
+                                        <script id="data" type="application/json">
+                                            [{ "weekname":"20240517", "date": "May 17, 2024", "pos": 118, "streams": 20673, "streamschange": "", "streamspercent": "" },{ "weekname":"20240524", "date": "May 24, 2024", "pos": 71, "streams": 25661, "streamschange": "+4988", "streamspercent": "+24.1%" },{ "weekname":"20240531", "date": "May 31, 2024", "pos": 61, "streams": 29262, "streamschange": "+3601", "streamspercent": "+14.0%" },{ "weekname":"20240607", "date": "June 7, 2024", "pos": 57, "streams": 29885, "streamschange": "+623", "streamspercent": "+2.1%" },{ "weekname":"20240614", "date": "June 14, 2024", "pos": 49, "streams": 30601, "streamschange": "+716", "streamspercent": "+2.4%" },{ "weekname":"20240621", "date": "June 21, 2024", "pos": 52, "streams": 29238, "streamschange": "-1363", "streamspercent": "-4.5%" },{ "weekname":"20240628", "date": "June 28, 2024", "pos": 59, "streams": 29297, "streamschange": "+59", "streamspercent": "+0.2%" },{ "weekname":"20240705", "date": "July 5, 2024", "pos": 107, "streams": 23035, "streamschange": "-6262", "streamspercent": "-21.4%" },{ "weekname":"20240712", "date": "July 12, 2024", "pos": 99, "streams": 23185, "streamschange": "+150", "streamspercent": "+0.7%" },{ "weekname":"20240719", "date": "July 19, 2024", "pos": 112, "streams": 21668, "streamschange": "-1517", "streamspercent": "-6.5%" },{ "weekname":"20240726", "date": "July 26, 2024", "pos": 114, "streams": 21612, "streamschange": "-56", "streamspercent": "-0.3%" },{ "weekname":"20240802", "date": "August 2, 2024", "pos": 140, "streams": 20508, "streamschange": "-1104", "streamspercent": "-5.1%" },{ "weekname":"20240809", "date": "August 9, 2024", "pos": 172, "streams": 18756, "streamschange": "-1752", "streamspercent": "-8.5%" },{ "weekname":"20240816", "date": "August 16, 2024", "pos": 193, "streams": 17165, "streamschange": "-1591", "streamspercent": "-8.5%" }]
+                                        </script>
+
+                                        <script id="graphInfo" type="application/json">
+                                            {
+                                                "title": "Angga Candra - Sekecewa Itu",
+                                                "image_url": "https://lh3.googleusercontent.com/S7cdwX1SBolWxZFnCpIElfslVFPvZ2d3R4OkufDxEXvoqf9lCARbnMXTOuFdDb-hvoYvwnueNWzwdSVA=w180-h180-l90-rj",
+                                                "peak_pos": "49",
+                                                "peak_streams": "30601"
+                                            }
+                                        </script>
+                                    </div>
+                                    <div>
+                                        <ul class="actions fit">
+                                            <li><a href="#top" class="button fit">Back to Top</a></li>
+                                            <li><a href="../main.html" class="button fit">Back to Main Page</a></li>
+                                        </ul>
+                                    </div>
+                                </body>
+                            </div>
+                        </div>
+
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <div class="inner">
+                                <section>
+                                    <h2>Get in touch</h2>
+                                    <div>
+                                        <p>For matters related to this site, please contact <a href="mailto:sgcharts13@gmail.com">sgcharts13@gmail.com</a>.</p>
+                                        <p>For matters related to my portfolio or personal matters, please contact <a href="mailto:darrentjw15@gmail.com">darrentjw15@gmail.com</a>.</p>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>Follow</h2>
+                                    <ul class="icons">
+                                        <li><a href="https://twitter.com/sgcharts13" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="https://instagram.com/sgcharts13?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://sgcharts13.github.io" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/teo-jin-wee-darren-331131268" class="icon solid style2 fa-phone"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="mailto:sgcharts13@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                    </ul>
+                                </section>
+                                <ul class="copyright">
+                                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+                        </footer>
+
+                </div>
+
+            <!-- Scripts -->
+                <script src="../../assets/js/jquery.min.js"></script>
+                <script src="../../assets/js/browser.min.js"></script>
+                <script src="../../assets/js/breakpoints.min.js"></script>
+                <script src="../../assets/js/util.js"></script>
+                <script src="../../assets/js/main.js"></script>
+                <script src="../../assets/js/showtable.js"></script>
+                <script src="../../assets/js/track_graph.js"></script>
+        </body>
+    </html>
